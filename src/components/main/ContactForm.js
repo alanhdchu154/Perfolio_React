@@ -12,7 +12,7 @@ function ContactForm() {
                 </p>
             </div>
             <div className="contact-actions">
-                <a className="button button--primary" href="mailto:alanhdchu@gmail.com">alanhdchu@gmail.com</a>
+                <a className="button button--primary" href="mailto:alanhdchu.dev@gmail.com">alanhdchu.dev@gmail.com</a>
                 <a className="button button--secondary" href="https://www.linkedin.com/in/alan-hwader-chu/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                 <a className="button button--secondary" href="https://github.com/alanhdchu154" target="_blank" rel="noopener noreferrer">GitHub</a>
                 <a className="button button--secondary" href="/Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>

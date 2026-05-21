@@ -11,6 +11,7 @@ const projectDetails = [
             "Why it matters: this is the clearest example of enterprise decision support work at national operating scale."
         ],
         github: null,
+        caseStudy: "/case-studies/walmart-demand-supply",
         status: "Confidential enterprise system"
     },
     {

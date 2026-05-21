@@ -20,11 +20,19 @@ function Project(props) {
                     <span key={technology}>{technology}</span>
                 ))}
             </div>
+            {project.caseStudy && (
+                <a className="button button--primary" href={project.caseStudy}>
+                    Read Case Study
+                </a>
+            )}
             {project.github ? (
                 <a className="button button--secondary" href={project.github} target="_blank" rel="noopener noreferrer">
                     GitHub
                 </a>
-            ) : (
+            ) : !project.caseStudy && (
+                <span className={styles.privateNote}>Confidential work - details abstracted for portfolio use.</span>
+            )}
+            {!project.github && project.caseStudy && (
                 <span className={styles.privateNote}>Confidential work - details abstracted for portfolio use.</span>
             )}
         </article>
