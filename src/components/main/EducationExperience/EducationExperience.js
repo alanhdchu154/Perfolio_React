@@ -5,11 +5,11 @@ import Publications from './Publications';
 
 function EducationExperience() {
     return (
-        <div className="container">
+        <section className="section education-section" id="education">
             <Education />
             <Achievements />
             <Publications />
-        </div>
+        </section>
     );
 }
 

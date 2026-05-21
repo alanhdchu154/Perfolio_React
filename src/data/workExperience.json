@@ -2,14 +2,22 @@
     {
         "title": "Software Engineer",
         "company": "Walmart",
-        "duration": "Oct. 2023 - Aug. 2025",
+        "duration": "Oct. 2023 - 2026",
         "points": [
-            "Designed Python-based ETL pipelines for real-time delivery data, enabling SLA monitoring and anomaly detection.",
-            "Automated KPI reporting using SQL, pandas, and Airflow; saved 5+ hours per week in manual reporting.",
-            "Built a CLI-based Python tool hosted on an internal VM to support driver assignment testing.",
-            "Refactored Airflow DAGs and Pinot-Kafka streaming, reducing job latency from 5 to under 2 minutes.",
-            "Used Grafana and Splunk to monitor real-time metrics and logs, cutting triage time during incidents by 50%.",
-            "Developed Spring Boot APIs for delivery trip cancellation and integrated with Angular frontend for field ops."
+            "Built backend services, APIs, data pipelines, and operational analytics workflows for large-scale delivery and field operations.",
+            "Designed real-time KPIs, monitoring flows, and automated reporting with Python, SQL, Airflow-style workflows, Grafana, and Splunk.",
+            "Worked on AI/ML-assisted prediction and decision support systems that translated complex operational signals into frontline-ready actions.",
+            "Improved workflow reliability and triage speed by tightening data quality, observability, and automation around recurring operations tasks."
+        ]
+    },
+    {
+        "title": "Academic Systems & AI/EdTech Operator",
+        "company": "Genesis Ideas International School (GIIS)",
+        "duration": "2024 - Present",
+        "points": [
+            "Built GPA, transcript, and academic operations structures for a US high-school-oriented international program.",
+            "Designed AI-assisted learning and EdTech workflows for student tracking, academic planning, and teaching process automation.",
+            "Translated STEM, AI, and student research offerings into parent-facing program value and operational SOPs."
         ]
     },
     {

@@ -40,26 +40,30 @@ function Nav() {
     }, []);
 
     return (
-        <nav className={`nav bg-success-subtle ${isNavSticky ? 'sticky' : ''}`}>
-            <a className="navbar-brand" href="/" onClick={handleBrandClick}>
+        <nav className={`site-nav ${isNavSticky ? 'sticky' : ''}`}>
+            <a className="nav-logo" href="/" onClick={handleBrandClick} aria-label="Alan Chu home">
                 <img src="/img/logo.png" alt='logo' width="50px" height="50px" />
             </a>
 
 
-            <ul className="nav justify-content-end">
+            <ul className="nav-links">
                 <li className="nav-item">
-                    <a className="nav-link" href="#about" onClick={handleNavClick}>About Me</a>
+                    <a className="nav-link" href="#about" onClick={handleNavClick}>About</a>
+                </li>
+                <li className="nav-item">
+                    <a className="nav-link" href="#experience" onClick={handleNavClick}>Experience</a>
                 </li>
                 <li className="nav-item">
                     <a className="nav-link" href="#projects" onClick={handleNavClick}>Projects</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="#education" onClick={handleNavClick}>Education</a>
+                    <a className="nav-link" href="#research" onClick={handleNavClick}>Research</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="#contact" onClick={handleNavClick}>Contact Me</a>
-                </li><SocialIcon url="https://www.linkedin.com/in/alan-hwader-chu/" />
-                <SocialIcon url="https://github.com/AlanChu61" />
+                    <a className="nav-link" href="#contact" onClick={handleNavClick}>Contact</a>
+                </li>
+                <li className="nav-social"><SocialIcon url="https://www.linkedin.com/in/alan-hwader-chu/" style={{ height: 34, width: 34 }} /></li>
+                <li className="nav-social"><SocialIcon url="https://github.com/AlanChu61" style={{ height: 34, width: 34 }} /></li>
             </ul>
         </nav>
     );

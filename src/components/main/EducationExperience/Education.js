@@ -51,12 +51,12 @@ EducationTable.propTypes = {
 
 // Education data
 const educationRecords = [
-    { degree: "M.S. in Artificial Intelligence", institution: "The University of Texas at Austin", date: "Fall, 2024 - Present" },
-    { degree: "M.S. in Computer and Information Technology", institution: "University of Pennsylvania", date: "Aug, 2022 - Present" },
-    { degree: "Full Stack Web Development (Python, Walmart Sponsored)", institution: "Hackbright Academy", date: "Apr, 2023 - Jun, 2023" },
-    { degree: "Software Engineering Immersive", institution: "General Assembly", date: "Nov, 2022 - May, 2023" },
-    { degree: "M.S. in Materials Science (Ph.D. Candidacy Completed)", institution: "Purdue University", date: "Graduated in 2020" },
-    { degree: "B.S. and M.S. in Chemical Engineering", institution: "National Tsing Hua University", date: "Graduated in 2016" },
+    { degree: "M.S. in Artificial Intelligence", institution: "The University of Texas at Austin", date: "2024 - Present" },
+    { degree: "M.S. in Computer and Information Technology", institution: "University of Pennsylvania", date: "2022 - Present" },
+    { degree: "Full Stack Web Development, Walmart Sponsored", institution: "Hackbright Academy", date: "2023" },
+    { degree: "Software Engineering Immersive", institution: "General Assembly", date: "2022 - 2023" },
+    { degree: "M.S. in Materials Engineering", institution: "Purdue University", date: "2020" },
+    { degree: "M.S. & B.S. in Chemical Engineering", institution: "National Tsing Hua University", date: "2016" },
 ];
 
 // Education component
@@ -66,11 +66,12 @@ function Education() {
     }
 
     return (
-        <div className="row mb-4">
-            <div className="col-12">
+        <div className="education-block">
+            <div className="section__intro">
+                <span className="section__eyebrow">Education</span>
                 <h2>Education</h2>
-                <EducationTable educationRecords={educationRecords} />
             </div>
+            <EducationTable educationRecords={educationRecords} />
         </div>
     );
 }

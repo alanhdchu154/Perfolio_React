@@ -2,9 +2,12 @@ import React from "react";
 
 function ContactForm() {
     return (
-        <div className="row">
-            <h2 id="contact">Contact Me</h2>
-            <div className="col-12 form-group">
+        <section className="section contact-section" id="contact">
+            <div className="section__intro">
+                <span className="section__eyebrow">Contact</span>
+                <h2>Let’s talk about software, AI systems, or education technology.</h2>
+            </div>
+            <div className="form-group">
                 <form name="contact" netlify="true" method="post">
                     <input type="hidden" name="form-name" value="contact" />
                     <p>
@@ -20,11 +23,11 @@ function ContactForm() {
                         <textarea id="message" name="message" required></textarea>
                     </p>
                     <p>
-                        <button type="submit" className="btn btn-primary">Submit</button>
+                        <button type="submit" className="button button--primary">Submit</button>
                     </p>
                 </form>
             </div>
-        </div>
+        </section>
     );
 }
 

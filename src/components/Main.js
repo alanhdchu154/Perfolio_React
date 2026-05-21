@@ -7,6 +7,7 @@ const TechSkills = lazy(() => import('./main/WorkExperience/TechSkills'));
 const Projects = lazy(() => import('./main/Projects'));
 const AboutMe = lazy(() => import('./main/AboutMe'));
 const ContactForm = lazy(() => import('./main/ContactForm'));
+const ResearchInterests = lazy(() => import('./main/ResearchInterests'));
 
 
 function Main() {
@@ -17,6 +18,7 @@ function Main() {
                 <WorkExperience />
                 <TechSkills />
                 <Projects />
+                <ResearchInterests />
                 <EducationExperience />
                 <ContactForm />
             </Suspense>

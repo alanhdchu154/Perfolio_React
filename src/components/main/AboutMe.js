@@ -5,24 +5,41 @@ function AboutMe() {
     const resumePath = '/Resume.pdf';
 
     return (
-        <div className='row'>
-            <div className={`col-12 card ${styles.selfIntro}`} id="about">
-                <h1>About Me</h1>
+        <section className={`section ${styles.selfIntro}`} id="about">
+            <div className="section__intro">
+                <span className="section__eyebrow">About</span>
+                <h2>Software, data, and applied AI with an operator's sense of reality.</h2>
                 <p>
-                    I'm a software engineer with a strong background in backend systems, automation, and data pipelines. Currently at Walmart, I build Spring Boot APIs, Python ETL workflows, and operational tools to streamline internal processes and improve real-time decision-making. I’m comfortable working across the stack and have deployed full systems using React, FastAPI, and MongoDB in previous roles.
+                    I am a software engineer with experience in backend services, data pipelines, automation,
+                    and analytics systems. At Walmart, I worked on real-time operations workflows, Python and
+                    SQL data tooling, monitoring, and backend APIs that helped turn operational signals into
+                    faster decisions.
                 </p>
                 <p>
-                    I’m also pursuing an M.S. in Artificial Intelligence at UT Austin, where I focus on applying machine learning and computer vision techniques to infrastructure and automation challenges. I enjoy solving complex problems with pragmatic code and am always open to new opportunities in platform engineering, dev tooling, or AI systems.
+                    I am also pursuing an M.S. in Artificial Intelligence at UT Austin and building education-AI
+                    systems around GIIS, three-party coordination, and AI-driven simulated worlds. The common
+                    thread is practical: build systems that are understandable, testable, and useful when real
+                    people depend on them.
                 </p>
-                <div className='btn-container'>
-                    <button className={`${styles.button}`}>
-                        <a href={resumePath} target="_blank" rel="noopener noreferrer">
-                            Resume
-                        </a>
-                    </button>
-                </div>
             </div>
-        </div>
+            <div className="profile-panel">
+                <div>
+                    <span className="metric">3+</span>
+                    <p>years shipping software and data workflows in enterprise and startup contexts</p>
+                </div>
+                <div>
+                    <span className="metric">10+</span>
+                    <p>years across STEM education, mentorship, and international learning programs</p>
+                </div>
+                <div>
+                    <span className="metric">AI</span>
+                    <p>focused on applied AI, coordination systems, and human-centered automation</p>
+                </div>
+                <a className="button button--primary" href={resumePath} target="_blank" rel="noopener noreferrer">
+                    Open Resume
+                </a>
+            </div>
+        </section>
     );
 }
 
