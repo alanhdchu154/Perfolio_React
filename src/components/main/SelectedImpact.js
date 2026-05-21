@@ -23,12 +23,25 @@ const impactItems = [
     }
 ];
 
+const targetRoles = [
+    'Software Engineer, Data Platforms',
+    'Backend Engineer, Operations Systems',
+    'Applied AI Engineer',
+    'Data Engineer / Analytics Engineering'
+];
+
 function SelectedImpact() {
     return (
         <section className="section impact-section" id="impact">
             <div className="section__intro">
                 <span className="section__eyebrow">Selected Impact</span>
                 <h2>What I want hiring teams to notice first.</h2>
+            </div>
+            <div className="target-role-panel">
+                <span>Target roles</span>
+                <div className="target-role-list">
+                    {targetRoles.map((role) => <strong key={role}>{role}</strong>)}
+                </div>
             </div>
             <div className="impact-grid">
                 {impactItems.map((item) => (

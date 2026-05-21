@@ -8,7 +8,7 @@ const projectDetails = [
             "Problem: field teams needed clearer visibility into where demand and available supply were drifting apart across a large, dynamic operating network.",
             "Owned implementation work across data transformation, backend workflow logic, monitoring views, and operational signal quality.",
             "Designed for enterprise constraints: high-volume inputs, changing business rules, governance boundaries, and reliability expectations.",
-            "Outcome: improved actionable visibility into imbalance patterns, recurring bottlenecks, and triage priorities without exposing internal systems or confidential metrics."
+            "Why it matters: this is the clearest example of enterprise decision support work at national operating scale."
         ],
         github: null,
         status: "Confidential enterprise system"
@@ -21,7 +21,7 @@ const projectDetails = [
         highlights: [
             "Connects marketing, academic planning, and operational tooling in one school-facing system.",
             "Supports transcript and graduation workflows that turn curriculum policy into repeatable execution.",
-            "Reflects a real operating context rather than a toy portfolio project."
+            "Why it matters: shows product engineering in a real organization with messy users, policy, and workflows."
         ],
         github: "https://github.com/alanhdchu154/GIIS-website.git",
         status: "Active product"
@@ -34,7 +34,7 @@ const projectDetails = [
         highlights: [
             "Models the student AI as a trusted disclosure channel, not just a tutoring chatbot.",
             "Separates raw conversation from abstracted profiles to preserve a practical privacy wall.",
-            "Includes provider flexibility, dataset evaluation hooks, and regression tests for safer iteration."
+            "Why it matters: explores how AI can coordinate people without collapsing privacy, trust, or accountability."
         ],
         github: "https://github.com/alanhdchu154/three-party-ai-mvp.git",
         status: "MVP"
@@ -47,7 +47,7 @@ const projectDetails = [
         highlights: [
             "Extends an agent simulation engine into a school-world prototype with persistent state and routines.",
             "Uses local inference and repeated playtesting to tune character behavior, world time, and narrative events.",
-            "Connects directly to the broader interest in AI sociology: how artificial worlds produce social patterns."
+            "Why it matters: connects agent simulation to AI sociology, worldbuilding, and emergent social behavior."
         ],
         github: "https://github.com/alanhdchu154/ai-town.git",
         status: "Experimental build"

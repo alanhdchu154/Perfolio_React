@@ -240,6 +240,43 @@ section[id] {
   max-width: 1120px;
 }
 
+.target-role-panel {
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.08);
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  margin: 0 0 1rem;
+  max-width: 1120px;
+  padding: 1rem 1.25rem;
+}
+
+.target-role-panel > span {
+  color: #7dd3c7;
+  font-size: 0.8rem;
+  font-weight: 850;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.target-role-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: flex-end;
+}
+
+.target-role-list strong {
+  border: 1px solid rgba(125, 211, 199, 0.36);
+  border-radius: 999px;
+  color: #ffffff;
+  font-size: 0.82rem;
+  padding: 0.28rem 0.65rem;
+}
+
 .impact-card {
   border: 1px solid rgba(255, 255, 255, 0.16);
   border-radius: 8px;
@@ -315,6 +352,21 @@ section[id] {
   color: #0f766e;
   font-size: 0.88rem;
   font-weight: 800;
+}
+
+.experience-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.45rem;
+}
+
+.experience-tags strong {
+  border: 1px solid #d8e6e3;
+  border-radius: 999px;
+  color: #1f6f5f;
+  font-size: 0.72rem;
+  padding: 0.22rem 0.5rem;
 }
 
 .experience-item ul {
@@ -444,6 +496,18 @@ form textarea {
   min-height: 9rem;
 }
 
+.contact-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.contact-section .button--secondary {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.24);
+  color: #ffffff;
+}
+
 .page-footer,
 .footer {
   padding: 1.25rem 8vw;
@@ -460,6 +524,15 @@ form textarea {
   .projects-grid,
   .research-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .target-role-panel {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .target-role-list {
+    justify-content: flex-start;
   }
 }
 

@@ -16,6 +16,11 @@ function WorkExperience() {
                             <span>{job.duration}</span>
                             <h3>{job.title}</h3>
                             <h4>{job.company}</h4>
+                            {job.tags && (
+                                <div className="experience-tags">
+                                    {job.tags.map((tag) => <strong key={tag}>{tag}</strong>)}
+                                </div>
+                            )}
                         </div>
                         <ul>
                             {job.points.map((point, i) => (
