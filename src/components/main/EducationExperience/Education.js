@@ -52,7 +52,6 @@ EducationTable.propTypes = {
 // Education data
 const educationRecords = [
     { degree: "M.S. in Artificial Intelligence", institution: "The University of Texas at Austin", date: "2024 - Present" },
-    { degree: "M.S. in Computer and Information Technology", institution: "University of Pennsylvania", date: "2022 - Present" },
     { degree: "Full Stack Web Development, Walmart Sponsored", institution: "Hackbright Academy", date: "2023" },
     { degree: "Software Engineering Immersive", institution: "General Assembly", date: "2022 - 2023" },
     { degree: "M.S. in Materials Engineering", institution: "Purdue University", date: "2020" },
