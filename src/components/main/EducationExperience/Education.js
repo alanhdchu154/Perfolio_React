@@ -68,7 +68,7 @@ function Education() {
         <div className="education-block">
             <div className="section__intro">
                 <span className="section__eyebrow">Education</span>
-                <h2>Education</h2>
+                <h2>Academic background</h2>
             </div>
             <EducationTable educationRecords={educationRecords} />
         </div>

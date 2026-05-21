@@ -9,20 +9,22 @@ function WorkExperience() {
                 <h2>Engineering experience with data-heavy operations and education systems.</h2>
             </div>
 
-            {workExperience.map((job, index) => (
-                <article key={index} className="experience-item">
-                    <div className="experience-item__header">
-                        <h3>{job.title}</h3>
-                        <span>{job.duration}</span>
-                    </div>
-                    <h4>{job.company}</h4>
-                    <ul>
-                        {job.points.map((point, i) => (
-                            <li key={i}>{point}</li>
-                        ))}
-                    </ul>
-                </article>
-            ))}
+            <div className="experience-list">
+                {workExperience.map((job, index) => (
+                    <article key={index} className="experience-item">
+                        <div className="experience-item__header">
+                            <span>{job.duration}</span>
+                            <h3>{job.title}</h3>
+                            <h4>{job.company}</h4>
+                        </div>
+                        <ul>
+                            {job.points.map((point, i) => (
+                                <li key={i}>{point}</li>
+                            ))}
+                        </ul>
+                    </article>
+                ))}
+            </div>
         </section>
     );
 }

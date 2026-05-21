@@ -9,8 +9,8 @@ function Projects() {
                 <span className="section__eyebrow">Selected Projects</span>
                 <h2>Recent work that best represents my current direction.</h2>
                 <p>
-                    I replaced older bootcamp-era demos with projects that show software engineering,
-                    data/AI systems, and product judgment in real operating environments.
+                    These projects emphasize enterprise-scale data systems, applied AI products,
+                    education technology, and simulation work with real operational constraints.
                 </p>
             </div>
             <div className="projects-grid">

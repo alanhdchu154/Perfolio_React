@@ -24,6 +24,10 @@ img {
   max-width: 100%;
 }
 
+section[id] {
+  scroll-margin-top: 5rem;
+}
+
 .container,
 .container-fluid {
   width: 100%;
@@ -220,32 +224,30 @@ img {
   line-height: 1;
 }
 
-.experience-section {
-  background: #132238;
-  color: #ffffff;
+.experience-section.section {
+  background: #ffffff;
 }
 
-.experience-section .section__intro h2,
-.experience-item h3 {
-  color: #ffffff;
-}
-
-.experience-section .section__intro p,
-.experience-item li,
-.experience-item h4 {
-  color: #d6dee8;
+.experience-list {
+  display: grid;
+  gap: 1rem;
+  max-width: 1120px;
 }
 
 .experience-item {
-  max-width: 1120px;
-  padding: 1.4rem 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.14);
+  display: grid;
+  grid-template-columns: minmax(220px, 0.85fr) minmax(0, 2fr);
+  gap: 1.25rem;
+  border: 1px solid #d8dee8;
+  border-radius: 8px;
+  background: #ffffff;
+  padding: 1.35rem;
 }
 
 .experience-item__header {
   display: flex;
-  justify-content: space-between;
-  gap: 1rem;
+  flex-direction: column;
+  gap: 0.4rem;
 }
 
 .experience-item h3,
@@ -253,26 +255,51 @@ img {
   margin: 0;
 }
 
+.experience-item h3 {
+  color: #132238;
+  font-size: 1.12rem;
+  line-height: 1.25;
+}
+
 .experience-item h4 {
-  font-size: 1rem;
-  font-weight: 650;
+  color: #526173;
+  font-size: 0.95rem;
+  font-weight: 700;
 }
 
 .experience-item__header span {
-  color: #7dd3c7;
-  white-space: nowrap;
+  color: #0f766e;
+  font-size: 0.88rem;
+  font-weight: 800;
+}
+
+.experience-item ul {
+  margin: 0;
+  padding-left: 1.15rem;
+  color: #3d4b5d;
+}
+
+.experience-item li + li {
+  margin-top: 0.45rem;
 }
 
 .skills-grid,
 .projects-grid,
 .research-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1rem;
 }
 
 .skills-grid {
   grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.projects-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.research-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .skill-card,
@@ -425,7 +452,10 @@ form textarea {
   }
 
   .experience-item__header {
-    flex-direction: column;
     gap: 0.25rem;
+  }
+
+  .experience-item {
+    grid-template-columns: 1fr;
   }
 }
