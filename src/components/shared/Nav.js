@@ -63,7 +63,7 @@ function Nav() {
                     <a className="nav-link" href="#contact" onClick={handleNavClick}>Contact</a>
                 </li>
                 <li className="nav-social"><SocialIcon url="https://www.linkedin.com/in/alan-hwader-chu/" style={{ height: 34, width: 34 }} /></li>
-                <li className="nav-social"><SocialIcon url="https://github.com/AlanChu61" style={{ height: 34, width: 34 }} /></li>
+                <li className="nav-social"><SocialIcon url="https://github.com/alanhdchu154" style={{ height: 34, width: 34 }} /></li>
             </ul>
         </nav>
     );
