@@ -20,9 +20,13 @@ function Project(props) {
                     <span key={technology}>{technology}</span>
                 ))}
             </div>
-            <a className="button button--secondary" href={project.github} target="_blank" rel="noopener noreferrer">
-                GitHub
-            </a>
+            {project.github ? (
+                <a className="button button--secondary" href={project.github} target="_blank" rel="noopener noreferrer">
+                    GitHub
+                </a>
+            ) : (
+                <span className={styles.privateNote}>Confidential work - details abstracted for portfolio use.</span>
+            )}
         </article>
     );
 }

@@ -1,5 +1,18 @@
 const projectDetails = [
     {
+        title: "Enterprise Demand-Supply Gap Decision System",
+        category: "Data Systems / Enterprise Operations",
+        description: "A confidential Walmart operations project abstracted for portfolio use: built data and backend workflows that helped surface demand-supply imbalance signals across thousands of U.S. stores and regional delivery zones.",
+        technologies: ["Python", "SQL", "ETL", "Operational analytics", "Monitoring", "Data quality", "Decision support"],
+        highlights: [
+            "Translated high-volume operational signals into structured demand-supply gap views for nationwide field decision-making.",
+            "Worked across store and service-zone dimensions at enterprise scale while respecting reliability, governance, and privacy constraints.",
+            "Focused on actionable visibility: imbalance patterns, recurring bottlenecks, data quality issues, and faster operational triage."
+        ],
+        github: null,
+        status: "Confidential enterprise system"
+    },
+    {
         title: "GIIS Website & Academic Operations Platform",
         category: "EdTech / Full Stack",
         description: "A production-oriented school platform for Genesis Ideas International School, combining public-facing program pages with internal academic operations workflows such as transcript, pathway, and graduation tooling.",

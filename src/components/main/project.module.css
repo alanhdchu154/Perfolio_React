@@ -54,3 +54,9 @@
   font-size: 0.78rem;
   padding: 0.25rem 0.55rem;
 }
+
+.privateNote {
+  color: #66768a;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
