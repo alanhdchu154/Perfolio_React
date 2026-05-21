@@ -3,16 +3,16 @@ import React from 'react';
 function ResearchInterests() {
     const interests = [
         {
-            title: 'AI worlds as social systems',
-            body: 'How agent-based environments create norms, incentives, memory, routines, and emergent culture instead of only answering prompts.'
+            title: 'Education psychology',
+            body: 'Exploring how students disclose pressure, confusion, avoidance, and motivation gaps when the system gives them a safer way to be understood.'
         },
         {
-            title: 'Education coordination through AI',
-            body: 'How student, parent, teacher, and coordinator perspectives can be mediated without collapsing privacy or trust.'
+            title: 'AI sociology',
+            body: 'Studying AI agents, memory, routines, norms, and simulated institutions as a new layer of social reality around learning.'
         },
         {
-            title: 'Simulation as product design',
-            body: 'Using synthetic worlds and controlled scenarios to reason about school operations, student support, and human-AI workflows before real deployment.'
+            title: 'Human-AI coordination',
+            body: 'Thinking about how AI can mediate between students, parents, teachers, and schools without turning support into surveillance.'
         }
     ];
 
@@ -20,12 +20,20 @@ function ResearchInterests() {
         <section className="section research-section" id="research">
             <div className="section__intro">
                 <span className="section__eyebrow">Research Direction</span>
-                <h2>AI sociology, worldbuilding, and human coordination</h2>
+                <h2>Exploring education psychology and AI sociology</h2>
                 <p>
-                    My current interest is less about isolated chatbots and more about AI as a social
-                    infrastructure: systems that shape how people disclose information, coordinate decisions,
-                    and live inside simulated or semi-simulated worlds.
+                    I am still mapping this world: how AI changes the social layer around learning,
+                    how students become willing to share what they actually feel, and how simulated
+                    AI worlds can help us reason about trust, coordination, and institutional behavior.
                 </p>
+                <a
+                    className="button button--secondary research-link"
+                    href="https://github.com/alanhdchu154/Perfolio_React/blob/main/docs/ai-sociology-education-psychology-knowledge-map.md"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Read working map
+                </a>
             </div>
             <div className="research-grid">
                 {interests.map((interest) => (

@@ -432,6 +432,10 @@ section[id] {
   margin: 0;
 }
 
+.research-link {
+  margin-top: 1.25rem;
+}
+
 .education-block {
   max-width: 1120px;
   margin-bottom: 2rem;
