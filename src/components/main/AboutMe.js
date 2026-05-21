@@ -10,22 +10,20 @@ function AboutMe() {
                 <span className="section__eyebrow">About</span>
                 <h2>Software, data, and applied AI with an operator's sense of reality.</h2>
                 <p>
-                    I am a software engineer with experience in backend services, data pipelines, automation,
-                    and analytics systems. At Walmart, I worked on real-time operations workflows, Python and
-                    SQL data tooling, monitoring, and backend APIs that helped turn operational signals into
-                    faster decisions.
+                    I am a software engineer focused on backend systems, data workflows, operational analytics,
+                    and applied AI. At Walmart, I worked on nationwide operations tooling where messy business
+                    signals had to become reliable systems for decision-making.
                 </p>
                 <p>
-                    I am also pursuing an M.S. in Artificial Intelligence at UT Austin and building education-AI
-                    systems around GIIS, three-party coordination, and AI-driven simulated worlds. The common
-                    thread is practical: build systems that are understandable, testable, and useful when real
-                    people depend on them.
+                    I am also pursuing an M.S. in Artificial Intelligence at UT Austin and building AI/EdTech
+                    systems around coordination, triage, and simulated worlds. I am strongest in roles that
+                    combine software engineering, data systems, and high-ambiguity product judgment.
                 </p>
             </div>
             <div className="profile-panel">
                 <div>
                     <span className="metric">3+</span>
-                    <p>years shipping software and data workflows in enterprise and startup contexts</p>
+                    <p>years shipping backend, data, and automation workflows in enterprise and startup contexts</p>
                 </div>
                 <div>
                     <span className="metric">10+</span>
@@ -33,7 +31,7 @@ function AboutMe() {
                 </div>
                 <div>
                     <span className="metric">AI</span>
-                    <p>focused on applied AI, coordination systems, and human-centered automation</p>
+                    <p>applied AI focus across coordination systems, decision support, and simulation</p>
                 </div>
                 <a className="button button--primary" href={resumePath} target="_blank" rel="noopener noreferrer">
                     Open Resume

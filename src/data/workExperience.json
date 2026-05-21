@@ -4,10 +4,10 @@
         "company": "Walmart",
         "duration": "Oct. 2023 - 2026",
         "points": [
-            "Built backend services, APIs, data pipelines, and operational analytics workflows for large-scale delivery and field operations.",
-            "Designed real-time KPIs, monitoring flows, and automated reporting with Python, SQL, Airflow-style workflows, Grafana, and Splunk.",
-            "Worked on AI/ML-assisted prediction and decision support systems that translated complex operational signals into frontline-ready actions.",
-            "Improved workflow reliability and triage speed by tightening data quality, observability, and automation around recurring operations tasks."
+            "Built backend and data workflows for nationwide operations tooling, including demand-supply gap visibility across store and regional service-zone dimensions.",
+            "Translated ambiguous operations questions into maintainable APIs, pipelines, monitoring views, and decision-support workflows.",
+            "Improved operational observability by tightening data quality checks, signal definitions, and alert/triage paths for recurring issues.",
+            "Worked at the intersection of engineering, analytics, and business operations, where reliability, governance, and clarity mattered more than one-off scripts."
         ]
     },
     {
@@ -15,9 +15,9 @@
         "company": "Genesis Ideas International School (GIIS)",
         "duration": "2024 - Present",
         "points": [
-            "Built GPA, transcript, and academic operations structures for a US high-school-oriented international program.",
-            "Designed AI-assisted learning and EdTech workflows for student tracking, academic planning, and teaching process automation.",
-            "Translated STEM, AI, and student research offerings into parent-facing program value and operational SOPs."
+            "Designed academic systems for GPA, transcripts, course pathways, and student progress tracking in a US high-school-oriented international program.",
+            "Built AI-assisted and automation-friendly workflows for academic planning, teaching operations, and parent-facing visibility.",
+            "Converted education strategy into repeatable operating processes across students, parents, teachers, and administrators."
         ]
     },
     {
@@ -25,10 +25,9 @@
         "company": "Shanghai Genius Academy",
         "duration": "Aug. 2020 - Oct. 2023",
         "points": [
-            "Built a React + FastAPI + SQLite payroll system that automated salary tracking and notifications, reducing HR load by 60%.",
-            "Developed a Node.js + MongoDB teacher portal for managing profiles and communications, boosting admin efficiency.",
-            "Designed a JUnit-tested student/course management system that cut staff workload by 50%.",
-            "Deployed and customized a Moodle instance on AWS Lightsail for scalable online learning."
+            "Built internal tools across payroll, teacher management, student/course operations, and online learning infrastructure.",
+            "Shipped full-stack systems with React, FastAPI, Node.js, MongoDB, SQLite, Moodle, and AWS Lightsail in a resource-constrained startup environment.",
+            "Owned workflow design from operator pain point to deployed tool, reducing manual administrative load and improving visibility."
         ]
     },
     {
@@ -36,10 +35,9 @@
         "company": "KLA-Tencor",
         "duration": "Oct. 2021 - June 2022",
         "points": [
-            "Automated Focus Study analysis using Excel Macros, cutting time by 30% and reducing errors by 20%.",
-            "Performed data analysis and file ops on Unix systems to support customer solutions.",
-            "Created Python scripts for reporting and visualization, speeding up internal communication and delivery.",
-            "Recognized for innovation; fastest to complete Level-1 qualification exam."
+            "Built Python and spreadsheet automation for semiconductor engineering analysis, reducing repetitive manual workflow.",
+            "Translated engineering team needs into internal tools, reporting flows, and Unix-based data operations.",
+            "Recognized for fast qualification and practical automation in a technical customer-support environment."
         ]
     }
 ]

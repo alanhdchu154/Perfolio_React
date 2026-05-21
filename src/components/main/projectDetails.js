@@ -1,13 +1,14 @@
 const projectDetails = [
     {
         title: "Enterprise Demand-Supply Gap Decision System",
-        category: "Data Systems / Enterprise Operations",
-        description: "A confidential Walmart operations project abstracted for portfolio use: built data and backend workflows that helped surface demand-supply imbalance signals across thousands of U.S. stores and regional delivery zones.",
-        technologies: ["Python", "SQL", "ETL", "Operational analytics", "Monitoring", "Data quality", "Decision support"],
+        category: "Confidential Case Study / Data Systems",
+        description: "A Walmart operations project abstracted for portfolio use: helped build the data and backend workflows behind demand-supply imbalance visibility across thousands of U.S. stores and regional delivery zones.",
+        technologies: ["Python", "SQL", "Backend workflows", "ETL", "Operational analytics", "Monitoring", "Data quality"],
         highlights: [
-            "Translated high-volume operational signals into structured demand-supply gap views for nationwide field decision-making.",
-            "Worked across store and service-zone dimensions at enterprise scale while respecting reliability, governance, and privacy constraints.",
-            "Focused on actionable visibility: imbalance patterns, recurring bottlenecks, data quality issues, and faster operational triage."
+            "Problem: field teams needed clearer visibility into where demand and available supply were drifting apart across a large, dynamic operating network.",
+            "Owned implementation work across data transformation, backend workflow logic, monitoring views, and operational signal quality.",
+            "Designed for enterprise constraints: high-volume inputs, changing business rules, governance boundaries, and reliability expectations.",
+            "Outcome: improved actionable visibility into imbalance patterns, recurring bottlenecks, and triage priorities without exposing internal systems or confidential metrics."
         ],
         github: null,
         status: "Confidential enterprise system"

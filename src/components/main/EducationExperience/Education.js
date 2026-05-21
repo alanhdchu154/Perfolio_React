@@ -69,6 +69,7 @@ function Education() {
             <div className="section__intro">
                 <span className="section__eyebrow">Education</span>
                 <h2>Academic background</h2>
+                <p>Formal training across AI, engineering, and software, with earlier bootcamp programs included as supporting context rather than the main signal.</p>
             </div>
             <EducationTable educationRecords={educationRecords} />
         </div>
