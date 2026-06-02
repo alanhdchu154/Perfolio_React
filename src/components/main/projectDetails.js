@@ -17,7 +17,7 @@ const projectDetails = [
     {
         title: "GIIS Website & Academic Operations Platform",
         category: "EdTech / Full Stack",
-        description: "A production-oriented school platform for Genesis Ideas International School, combining public-facing program pages with internal academic operations workflows such as transcript, pathway, and graduation tooling.",
+        description: "A production-oriented school platform for Genesis of Ideas International School, combining public-facing program pages with internal academic operations workflows such as transcript, pathway, and graduation tooling.",
         technologies: ["React", "Bootstrap", "Node.js", "Academic workflows", "PDF generation", "Automation"],
         highlights: [
             "Connects marketing, academic planning, and operational tooling in one school-facing system.",

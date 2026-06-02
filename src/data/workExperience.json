@@ -2,7 +2,7 @@
     {
         "title": "Software Engineer",
         "company": "Walmart",
-        "duration": "Oct. 2023 - 2026",
+        "duration": "Oct. 2023 - Apr. 2026",
         "tags": ["Backend systems", "Operational analytics", "Data quality", "Decision support"],
         "points": [
             "Built backend and data workflows for nationwide operations tooling, including demand-supply gap visibility across store and regional service-zone dimensions.",
@@ -13,8 +13,8 @@
     },
     {
         "title": "Academic Systems & AI/EdTech Operator",
-        "company": "Genesis Ideas International School (GIIS)",
-        "duration": "2024 - Present",
+        "company": "Genesis of Ideas International School (GIIS)",
+        "duration": "Mar. 2024 - Present",
         "tags": ["EdTech systems", "Academic operations", "AI workflows"],
         "points": [
             "Designed academic systems for GPA, transcripts, course pathways, and student progress tracking in a US high-school-oriented international program.",
@@ -24,7 +24,7 @@
     },
     {
         "title": "Co-Founder / Founding Software Engineer",
-        "company": "Shanghai Genius Academy",
+        "company": "Shanghai Genius Academy / Genius Academy",
         "duration": "Aug. 2020 - Oct. 2023",
         "tags": ["Full-stack tools", "Internal systems", "Workflow automation"],
         "points": [
@@ -35,7 +35,7 @@
     },
     {
         "title": "Application Development Engineer",
-        "company": "KLA-Tencor",
+        "company": "KLA",
         "duration": "Oct. 2021 - June 2022",
         "tags": ["Python automation", "Engineering workflows", "Semiconductor data"],
         "points": [

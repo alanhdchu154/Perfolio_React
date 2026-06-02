@@ -22,8 +22,8 @@ function AboutMe() {
             </div>
             <div className="profile-panel">
                 <div>
-                    <span className="metric">3+</span>
-                    <p>years shipping backend, data, and automation workflows in enterprise and startup contexts</p>
+                    <span className="metric">5+</span>
+                    <p>years shipping software, data, and automation workflows across enterprise and startup contexts</p>
                 </div>
                 <div>
                     <span className="metric">10+</span>
