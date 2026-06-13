@@ -4,6 +4,15 @@ function Project(props) {
     const { project } = props;
     return (
         <article className={styles.container}>
+            {project.visual === "underworld-continuity" && (
+                <div className={styles.underworldPreview} aria-label="Underworld continuity preview">
+                    <span>Live scene</span>
+                    <i />
+                    <span>Memory gate</span>
+                    <i />
+                    <span>Future behavior</span>
+                </div>
+            )}
             <div className={styles.header}>
                 <span>{project.category}</span>
                 <strong>{project.status}</strong>

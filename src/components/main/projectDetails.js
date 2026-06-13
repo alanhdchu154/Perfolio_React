@@ -29,29 +29,33 @@ const projectDetails = [
     },
     {
         title: "Three-Party AI Education Coordinator",
-        category: "Applied AI / Privacy-Aware Coordination",
-        description: "A lean MVP for student-parent-teacher coordination where a student AI, privacy abstraction layer, coordinator, and triage module work together without exposing raw student conversations.",
-        technologies: ["Python", "Streamlit", "LiteLLM", "Prompted agents", "Rule-based triage", "Privacy tests"],
+        category: "Applied AI / Privacy-Aware Benchmarking",
+        description: "A research prototype and synthetic benchmark for student-parent-teacher coordination, focused on privacy-preserving abstraction, human review, and audience-safe reporting.",
+        technologies: ["Python", "Streamlit", "LiteLLM", "Prompted agents", "Privacy tests", "Synthetic benchmark", "Human review gates"],
         highlights: [
-            "Models the student AI as a trusted disclosure channel, not just a tutoring chatbot.",
-            "Separates raw conversation from abstracted profiles to preserve a practical privacy wall.",
+            "Built a multi-party support architecture with private party chats, abstraction, coordinator synthesis, triage, and audience-specific reports.",
+            "Maintains a growing 300+ conversation synthetic corpus while explicitly separating benchmark evidence from real-student validation claims.",
+            "Added privacy and reviewer gates for quote leakage, reconstructability, unsafe escalation, and human-review readiness.",
             "Why it matters: explores how AI can coordinate people without collapsing privacy, trust, or accountability."
         ],
         github: "https://github.com/alanhdchu154/three-party-ai-mvp.git",
-        status: "MVP"
+        status: "Research prototype"
     },
     {
         title: "AI Town: GIIS Underworld",
         category: "AI Simulation / Multi-Agent Worldbuilding",
-        description: "A customized AI Town simulation exploring school life, underworld-style narrative dynamics, character routines, and local LLM-driven interactions inside a persistent world.",
-        technologies: ["React", "TypeScript", "Convex", "PixiJS", "Ollama", "Agent simulation"],
+        description: "A persistent school-world AI simulation built on AI Town, with character memory, continuity checks, local runtime recovery, and mobile playtest support.",
+        technologies: ["React", "TypeScript", "Convex", "PixiJS", "Ollama", "LLM evaluation", "Agent memory"],
         highlights: [
-            "Extends an agent simulation engine into a school-world prototype with persistent state and routines.",
-            "Uses local inference and repeated playtesting to tune character behavior, world time, and narrative events.",
-            "Why it matters: connects agent simulation to AI sociology, worldbuilding, and emergent social behavior."
+            "Extended an agent simulation engine into a school-world prototype with persistent state, character routines, and human-facing conversations.",
+            "Built evidence gates for memory continuity, provider/fallback hygiene, motif repetition, and Alan-facing conversation quality.",
+            "Recovered and stabilized a local Convex runtime, added mobile same-Wi-Fi playtesting, and kept product-readiness separate from research-paper claims.",
+            "Why it matters: connects agent simulation to AI sociology, worldbuilding, and the practical engineering needed for long-running AI characters."
         ],
         github: "https://github.com/alanhdchu154/ai-town.git",
-        status: "Experimental build"
+        caseStudy: "/case-studies/giis-underworld",
+        visual: "underworld-continuity",
+        status: "Human-review-ready prototype"
     }
 ];
 

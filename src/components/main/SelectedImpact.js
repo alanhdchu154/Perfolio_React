@@ -14,7 +14,7 @@ const impactItems = [
     {
         metric: 'AI systems',
         title: 'Applied intelligence',
-        body: 'Exploring LLM coordination, triage, simulation, and AI-assisted workflows with privacy and human trust as first-class constraints.'
+        body: 'Building LLM coordination, privacy-wall reporting, persistent agent memory, and evaluation gates with human trust as a first-class constraint.'
     },
     {
         metric: 'Operator mindset',

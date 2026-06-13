@@ -6,6 +6,12 @@ html {
   scroll-behavior: smooth;
 }
 
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   margin: 0;
   background: #f6f8fb;
@@ -398,6 +404,112 @@ section[id] {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.topics-section.section {
+  background: #ffffff;
+}
+
+.topics-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.topic-card {
+  border: 1px solid #d8dee8;
+  border-radius: 8px;
+  background: #ffffff;
+  display: grid;
+  gap: 1rem;
+  grid-template-rows: auto 1fr;
+  padding: 1.15rem;
+}
+
+.topic-card > div:last-child > span {
+  color: #0f766e;
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 850;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.4rem;
+  text-transform: uppercase;
+}
+
+.topic-card h3 {
+  color: #132238;
+  font-size: 1.18rem;
+  line-height: 1.25;
+  margin: 0 0 0.55rem;
+}
+
+.topic-card p {
+  color: #526173;
+  margin: 0;
+}
+
+.topic-link {
+  margin-top: 1rem;
+}
+
+.topic-svg {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.topic-flow,
+.topic-stack {
+  background: linear-gradient(135deg, #f0fdf4, #eff6ff 52%, #fff7ed);
+  border: 1px solid #d8dee8;
+  border-radius: 8px;
+  display: grid;
+  gap: 0.6rem;
+  min-height: 16rem;
+  padding: 1rem;
+}
+
+.topic-flow {
+  align-content: center;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.topic-flow span,
+.topic-stack span {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.82);
+  border: 1px solid rgba(15, 118, 110, 0.18);
+  border-radius: 8px;
+  color: #132238;
+  display: flex;
+  font-size: 0.84rem;
+  font-weight: 800;
+  justify-content: center;
+  line-height: 1.25;
+  min-width: 0;
+  padding: 0.75rem 0.6rem;
+  text-align: center;
+}
+
+.topic-flow span + span {
+  position: relative;
+}
+
+.topic-flow span + span::before {
+  color: #0f766e;
+  content: "->";
+  font-size: 0.78rem;
+  font-weight: 900;
+  left: -0.78rem;
+  position: absolute;
+}
+
+.topic-flow--privacy {
+  background: linear-gradient(135deg, #eff6ff, #f8fafc 48%, #f0fdf4);
+}
+
+.topic-stack {
+  align-content: center;
+}
+
 .skill-card,
 .research-card {
   border: 1px solid #d8dee8;
@@ -651,6 +763,542 @@ form textarea {
   margin-top: 1rem;
 }
 
+.underworld-page {
+  color: #172033;
+}
+
+.underworld-hero {
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.96), rgba(241, 245, 249, 0.86)),
+    linear-gradient(90deg, #ecfdf5, #eef2ff 46%, #fff7ed);
+}
+
+.underworld-architecture-poster {
+  background:
+    linear-gradient(135deg, rgba(19, 34, 56, 0.96), rgba(15, 118, 110, 0.88)),
+    linear-gradient(90deg, #132238, #0f766e);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 8px;
+  box-shadow: 0 24px 60px rgba(15, 23, 42, 0.12);
+  color: #ffffff;
+  margin-top: 2rem;
+  max-width: 1120px;
+  padding: 1.25rem;
+}
+
+.architecture-poster-header {
+  align-items: flex-start;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.architecture-poster-header span {
+  color: #a7f3d0;
+  flex: 0 0 auto;
+  font-size: 0.76rem;
+  font-weight: 850;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.architecture-poster-header strong {
+  color: #ffffff;
+  display: block;
+  font-size: clamp(1.25rem, 2vw, 1.75rem);
+  line-height: 1.18;
+  max-width: 640px;
+  text-align: right;
+}
+
+.architecture-layers {
+  display: grid;
+  gap: 0.75rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.architecture-layers article {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 8px;
+  min-height: 9rem;
+  padding: 1rem;
+}
+
+.architecture-layers h2 {
+  color: #ffffff;
+  font-size: 1rem;
+  margin: 0 0 0.8rem;
+}
+
+.architecture-layers article > div {
+  display: grid;
+  gap: 0.45rem;
+}
+
+.architecture-layers article span {
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 8px;
+  color: #e6f7f4;
+  font-size: 0.86rem;
+  font-weight: 750;
+  padding: 0.5rem 0.6rem;
+}
+
+.architecture-flow {
+  align-items: center;
+  display: grid;
+  gap: 0.45rem;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr) auto minmax(0, 1fr) auto minmax(0, 1fr);
+  margin-top: 0.85rem;
+}
+
+.architecture-flow span {
+  background: #ffffff;
+  border-radius: 8px;
+  color: #132238;
+  font-size: 0.82rem;
+  font-weight: 850;
+  padding: 0.55rem 0.6rem;
+  text-align: center;
+}
+
+.architecture-flow i {
+  background: #a7f3d0;
+  display: block;
+  height: 2px;
+  position: relative;
+  width: 1.25rem;
+}
+
+.architecture-flow i::after {
+  border-bottom: 4px solid transparent;
+  border-left: 5px solid #a7f3d0;
+  border-top: 4px solid transparent;
+  content: "";
+  position: absolute;
+  right: -1px;
+  top: -3px;
+}
+
+.underworld-theme-index {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  margin: 0 8vw 2rem;
+  padding: 1rem 0;
+}
+
+.underworld-theme-index > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: flex-end;
+}
+
+.underworld-theme-index a {
+  background: #ffffff;
+  border: 1px solid #d8dee8;
+  border-radius: 999px;
+  color: #132238;
+  font-size: 0.82rem;
+  font-weight: 800;
+  padding: 0.35rem 0.72rem;
+}
+
+.underworld-snapshot,
+.underworld-section {
+  padding-left: 8vw;
+  padding-right: 8vw;
+}
+
+.underworld-snapshot {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.underworld-snapshot article,
+.underworld-section {
+  background: #ffffff;
+  border: 1px solid #d8dee8;
+  border-radius: 8px;
+}
+
+.underworld-snapshot article {
+  padding: 1.2rem;
+}
+
+.underworld-snapshot span {
+  color: #0f766e;
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 850;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.45rem;
+  text-transform: uppercase;
+}
+
+.underworld-snapshot strong {
+  color: #132238;
+  display: block;
+  font-size: 1.08rem;
+  line-height: 1.25;
+}
+
+.underworld-snapshot p {
+  color: #526173;
+  margin: 0.55rem 0 0;
+}
+
+.underworld-section {
+  margin: 0 8vw 2rem;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+}
+
+.case-study-section-heading {
+  max-width: 880px;
+}
+
+.case-study-section-heading h2,
+.evidence-panel h2,
+.underworld-principles h2 {
+  color: #132238;
+  font-size: clamp(1.5rem, 2.4vw, 2.2rem);
+  line-height: 1.14;
+  margin: 0.45rem 0 0.75rem;
+}
+
+.case-study-section-heading p,
+.evidence-panel p,
+.underworld-principles p {
+  color: #526173;
+  margin: 0;
+}
+
+.continuity-diagram {
+  align-items: stretch;
+  display: grid;
+  gap: 0.75rem;
+  grid-template-columns: 1.15fr 0.55fr 1.15fr 0.55fr 1.15fr 0.55fr 1.15fr;
+  margin-top: 1.5rem;
+}
+
+.diagram-node {
+  border: 1px solid #cfd9e6;
+  border-radius: 8px;
+  min-height: 8.25rem;
+  padding: 1rem;
+}
+
+.diagram-node span {
+  display: block;
+  font-size: 0.76rem;
+  font-weight: 850;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.65rem;
+  text-transform: uppercase;
+}
+
+.diagram-node strong {
+  color: #132238;
+  display: block;
+  font-size: 1rem;
+  line-height: 1.35;
+}
+
+.node-live {
+  background: #f0fdf4;
+}
+
+.node-eval {
+  background: #eff6ff;
+}
+
+.node-memory {
+  background: #fff7ed;
+}
+
+.node-behavior {
+  background: #f8fafc;
+}
+
+.diagram-arrow {
+  align-items: center;
+  color: #0f766e;
+  display: flex;
+  font-size: 0.78rem;
+  font-weight: 850;
+  justify-content: center;
+  letter-spacing: 0.08em;
+  min-width: 0;
+  text-transform: uppercase;
+}
+
+.diagram-arrow::after {
+  background: #0f766e;
+  content: "";
+  height: 2px;
+  margin-left: 0.45rem;
+  width: 2rem;
+}
+
+.underworld-two-column {
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: minmax(0, 1.4fr) minmax(280px, 0.8fr);
+}
+
+.residue-pipeline {
+  display: grid;
+  gap: 0.75rem;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin-top: 1.25rem;
+}
+
+.residue-pipeline article {
+  border: 1px solid #d8dee8;
+  border-radius: 8px;
+  background: #f8fafc;
+  padding: 1rem;
+  position: relative;
+}
+
+.residue-pipeline article + article::before {
+  background: #d8dee8;
+  content: "";
+  height: 2px;
+  left: -0.75rem;
+  position: absolute;
+  top: 2rem;
+  width: 0.75rem;
+}
+
+.residue-pipeline span {
+  align-items: center;
+  background: #0f766e;
+  border-radius: 999px;
+  color: #ffffff;
+  display: inline-flex;
+  font-size: 0.8rem;
+  font-weight: 850;
+  height: 1.65rem;
+  justify-content: center;
+  margin-bottom: 0.75rem;
+  width: 1.65rem;
+}
+
+.residue-pipeline h3 {
+  color: #132238;
+  font-size: 1rem;
+  margin: 0 0 0.45rem;
+}
+
+.residue-pipeline p {
+  color: #526173;
+  font-size: 0.92rem;
+  margin: 0;
+}
+
+.evidence-panel {
+  background: #132238;
+  border-radius: 8px;
+  color: #ffffff;
+  padding: 1.25rem;
+}
+
+.evidence-panel h2 {
+  color: #ffffff;
+}
+
+.gate-grid {
+  display: grid;
+  gap: 0.55rem;
+  margin-top: 1rem;
+}
+
+.gate-grid span {
+  border: 1px solid rgba(125, 211, 199, 0.32);
+  border-radius: 8px;
+  color: #e6f7f4;
+  font-size: 0.88rem;
+  font-weight: 750;
+  padding: 0.55rem 0.65rem;
+}
+
+.underworld-theme-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-top: 1.35rem;
+}
+
+.underworld-theme-card {
+  border: 1px solid #d8dee8;
+  border-radius: 8px;
+  background: #f8fafc;
+  display: grid;
+  gap: 1rem;
+  padding: 1.15rem;
+  scroll-margin-top: 5.5rem;
+}
+
+.theme-copy > span {
+  color: #0f766e;
+  display: block;
+  font-size: 0.76rem;
+  font-weight: 850;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.45rem;
+  text-transform: uppercase;
+}
+
+.theme-copy h3 {
+  color: #132238;
+  font-size: 1.18rem;
+  line-height: 1.25;
+  margin: 0 0 0.55rem;
+}
+
+.theme-copy p {
+  color: #526173;
+  margin: 0 0 0.85rem;
+}
+
+.theme-copy strong,
+.theme-copy em {
+  display: block;
+  font-size: 0.86rem;
+  line-height: 1.45;
+}
+
+.theme-copy strong {
+  color: #1f6f5f;
+  font-style: normal;
+  margin-bottom: 0.45rem;
+}
+
+.theme-copy em {
+  color: #66768a;
+  font-style: normal;
+}
+
+.theme-mini-diagram {
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #d8dee8;
+  border-radius: 8px;
+  display: grid;
+  gap: 0.45rem;
+  grid-template-columns: repeat(9, minmax(0, auto));
+  padding: 0.75rem;
+}
+
+.theme-mini-diagram span {
+  background: #eef6f4;
+  border: 1px solid #d8e6e3;
+  border-radius: 8px;
+  color: #132238;
+  font-size: 0.76rem;
+  font-weight: 800;
+  line-height: 1.2;
+  min-width: 0;
+  padding: 0.45rem 0.5rem;
+  text-align: center;
+}
+
+.theme-mini-diagram i {
+  background: #0f766e;
+  display: block;
+  height: 2px;
+  position: relative;
+  width: 0.8rem;
+}
+
+.theme-mini-diagram i::after {
+  border-bottom: 4px solid transparent;
+  border-left: 5px solid #0f766e;
+  border-top: 4px solid transparent;
+  content: "";
+  position: absolute;
+  right: -1px;
+  top: -3px;
+}
+
+.roadmap-board {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: 1.35rem;
+}
+
+.roadmap-board article {
+  border: 1px solid #d8dee8;
+  border-radius: 8px;
+  background: #f8fafc;
+  padding: 1.1rem;
+}
+
+.roadmap-board article > div {
+  align-items: center;
+  display: flex;
+  gap: 0.65rem;
+  justify-content: space-between;
+  margin-bottom: 0.85rem;
+}
+
+.roadmap-board span {
+  background: #0f766e;
+  border-radius: 999px;
+  color: #ffffff;
+  font-size: 0.78rem;
+  font-weight: 850;
+  padding: 0.22rem 0.58rem;
+}
+
+.roadmap-board strong {
+  color: #66768a;
+  font-size: 0.76rem;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.roadmap-board h3 {
+  color: #132238;
+  font-size: 1.08rem;
+  line-height: 1.25;
+  margin: 0 0 0.8rem;
+}
+
+.roadmap-board ul {
+  color: #3d4b5d;
+  margin: 0;
+  padding-left: 1.05rem;
+}
+
+.roadmap-board li + li {
+  margin-top: 0.45rem;
+}
+
+.underworld-principles {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.underworld-principles article {
+  border: 1px solid #d8dee8;
+  border-radius: 8px;
+  background: #f8fafc;
+  padding: 1.15rem;
+}
+
 .page-footer,
 .footer {
   padding: 1.25rem 8vw;
@@ -663,12 +1311,63 @@ form textarea {
 @media (max-width: 980px) {
   .profile-panel,
   .impact-grid,
+  .underworld-snapshot,
   .case-study-summary,
   .case-study-content,
   .skills-grid,
   .projects-grid,
-  .research-grid {
+  .topics-grid,
+  .research-grid,
+  .roadmap-board,
+  .underworld-theme-grid,
+  .underworld-principles {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .continuity-diagram {
+    grid-template-columns: 1fr;
+  }
+
+  .diagram-arrow {
+    justify-content: flex-start;
+    padding-left: 1rem;
+  }
+
+  .diagram-arrow::after {
+    width: 4rem;
+  }
+
+  .underworld-two-column,
+  .architecture-layers,
+  .residue-pipeline {
+    grid-template-columns: 1fr;
+  }
+
+  .architecture-flow {
+    grid-template-columns: 1fr;
+  }
+
+  .architecture-flow i {
+    height: 0.9rem;
+    justify-self: center;
+    width: 2px;
+  }
+
+  .architecture-flow i::after {
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 5px solid #a7f3d0;
+    border-bottom: 0;
+    left: -3px;
+    right: auto;
+    top: 0.65rem;
+  }
+
+  .residue-pipeline article + article::before {
+    height: 0.75rem;
+    left: 1.75rem;
+    top: -0.75rem;
+    width: 2px;
   }
 
   .target-role-panel {
@@ -686,17 +1385,28 @@ form textarea {
     height: auto;
     min-height: 4.25rem;
     align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 0.5rem;
     padding: 0.7rem 1rem;
   }
 
+  .nav-logo {
+    flex: 0 0 auto;
+    height: 2.65rem;
+    width: 2.65rem;
+  }
+
   .nav-links {
+    flex: 1 1 0;
     justify-content: flex-end;
     flex-wrap: wrap;
-    gap: 0.35rem 0.8rem;
+    gap: 0.3rem 0.65rem;
+    min-width: 0;
   }
 
   .nav-link {
-    font-size: 0.8rem;
+    font-size: 0.78rem;
+    padding: 0.15rem 0;
   }
 
   .nav-social {
@@ -709,18 +1419,50 @@ form textarea {
     background-image: linear-gradient(120deg, #ffffff 0%, #f1f5f9 56%, #ecfdf5 100%);
   }
 
+  .hero h1 {
+    font-size: clamp(2rem, 9.5vw, 2.55rem);
+    line-height: 1.08;
+    max-width: 100%;
+    overflow-wrap: normal;
+  }
+
+  .hero p,
+  .hero__role {
+    max-width: 100%;
+  }
+
+  .hero__actions .button {
+    flex: 1 1 9rem;
+  }
+
   .section {
     padding: 3.5rem 1.25rem;
   }
 
   .profile-panel,
   .impact-grid,
+  .underworld-snapshot,
   .case-study-summary,
   .case-study-content,
   .skills-grid,
   .projects-grid,
-  .research-grid {
+  .topics-grid,
+  .research-grid,
+  .roadmap-board,
+  .underworld-theme-grid,
+  .underworld-principles {
     grid-template-columns: 1fr;
+  }
+
+  .topic-flow {
+    grid-template-columns: 1fr;
+  }
+
+  .topic-flow span + span::before {
+    content: "v";
+    left: 50%;
+    top: -0.9rem;
+    transform: translateX(-50%);
   }
 
   .experience-item__header {
@@ -733,8 +1475,10 @@ form textarea {
 
   .case-study-nav,
   .case-study-hero,
+  .underworld-snapshot,
   .case-study-summary,
-  .case-study-content {
+  .case-study-content,
+  .underworld-section {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
   }
@@ -748,5 +1492,113 @@ form textarea {
   .case-study-close {
     margin-left: 1.25rem;
     margin-right: 1.25rem;
+  }
+
+  .underworld-section {
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+  }
+
+  .underworld-theme-index {
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+  }
+
+  .underworld-theme-index > div {
+    justify-content: flex-start;
+  }
+
+  .underworld-hero h1 {
+    font-size: clamp(2rem, 9.5vw, 2.4rem);
+    line-height: 1.08;
+    max-width: 100%;
+  }
+
+  .underworld-hero p {
+    max-width: 100%;
+    overflow-wrap: anywhere;
+  }
+
+  .underworld-architecture-poster {
+    padding: 1rem;
+  }
+
+  .architecture-poster-header {
+    flex-direction: column;
+  }
+
+  .architecture-poster-header strong {
+    font-size: 1.25rem;
+    text-align: left;
+  }
+
+  .continuity-diagram,
+  .underworld-architecture-poster,
+  .architecture-flow,
+  .roadmap-board,
+  .residue-pipeline,
+  .gate-grid {
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  .diagram-node,
+  .roadmap-board article,
+  .residue-pipeline article,
+  .underworld-theme-card,
+  .gate-grid span {
+    min-width: 0;
+  }
+
+  .theme-mini-diagram {
+    grid-template-columns: 1fr;
+  }
+
+  .theme-mini-diagram i {
+    height: 0.8rem;
+    justify-self: center;
+    width: 2px;
+  }
+
+  .theme-mini-diagram i::after {
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 5px solid #0f766e;
+    border-bottom: 0;
+    left: -3px;
+    right: auto;
+    top: 0.55rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .nav-links {
+    gap: 0.25rem 0.52rem;
+  }
+
+  .nav-link {
+    font-size: 0.72rem;
+  }
+
+  .hero {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .section,
+  .case-study-nav,
+  .case-study-hero,
+  .underworld-snapshot,
+  .case-study-summary,
+  .case-study-content,
+  .underworld-section {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
