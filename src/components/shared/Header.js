@@ -2,12 +2,11 @@ import Nav from './Nav'
 import TextSlider from '../main/TextSlider'
 function Header() {
     const textList = [
-        "Backend & Data Systems Engineer",
-        "Applied AI Systems Builder",
-        "Enterprise Operations Engineer",
-        "Decision Support Tooling Builder"
+        "backend systems",
+        "operational data workflows",
+        "applied AI coordination"
     ];
-    const interval = 1800;
+    const interval = 2200;
     return (
         <header className='Header'>
             <Nav />

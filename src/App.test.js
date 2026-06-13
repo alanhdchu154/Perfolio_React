@@ -13,7 +13,7 @@ test('renders portfolio homepage', async () => {
   });
 
   expect(container.textContent).toContain('Alan Hwader Chu');
-  expect(container.textContent).toContain('Selected Projects');
+  expect(container.textContent).toContain('Selected Case Studies & Projects');
 
   await act(async () => {
     root.unmount();

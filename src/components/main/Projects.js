@@ -6,11 +6,11 @@ function Projects() {
     return (
         <section className="section projects-section" id="projects">
             <div className="section__intro">
-                <span className="section__eyebrow">Selected Projects</span>
-                <h2>Recent work that best represents my current direction.</h2>
+                <span className="section__eyebrow">Selected Case Studies & Projects</span>
+                <h2>Public-safe evidence for the work behind my positioning.</h2>
                 <p>
-                    These projects emphasize enterprise-scale data systems, applied AI products,
-                    education technology, and simulation work with real operational constraints.
+                    A few examples across enterprise operations, EdTech, applied AI coordination,
+                    and long-running simulation systems.
                 </p>
             </div>
             <div className="projects-grid">

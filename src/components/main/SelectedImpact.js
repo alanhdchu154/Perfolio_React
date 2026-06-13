@@ -4,30 +4,25 @@ const impactItems = [
     {
         metric: 'US-scale',
         title: 'Enterprise operations',
-        body: 'Worked on systems that reason across thousands of stores and regional operating zones, where reliability and clarity matter more than demo polish.'
+        body: 'Built for large operating networks where reliability, governance, and shared signals matter.'
     },
     {
         metric: 'Data + backend',
-        title: 'Decision workflows',
-        body: 'Built APIs, pipelines, monitoring views, and automation that turn operational signals into actions for field and business teams.'
+        title: 'Decision systems',
+        body: 'Turned messy inputs into APIs, pipelines, monitoring views, and decision-support workflows.'
     },
     {
         metric: 'AI systems',
         title: 'Applied intelligence',
-        body: 'Building LLM coordination, privacy-wall reporting, persistent agent memory, and evaluation gates with human trust as a first-class constraint.'
-    },
-    {
-        metric: 'Operator mindset',
-        title: 'Ambiguous problems',
-        body: 'Comfortable moving from messy requirements to maintainable systems, especially in education, logistics, operations, and internal tooling.'
+        body: 'Building LLM coordination, privacy-aware reporting, agent memory, and evaluation gates.'
     }
 ];
 
 const targetRoles = [
-    'Software Engineer, Data Platforms',
+    'Backend / Data Platform Engineer',
     'Backend Engineer, Operations Systems',
     'Applied AI Engineer',
-    'Data Engineer / Analytics Engineering'
+    'Analytics Engineering'
 ];
 
 function SelectedImpact() {
@@ -35,7 +30,7 @@ function SelectedImpact() {
         <section className="section impact-section" id="impact">
             <div className="section__intro">
                 <span className="section__eyebrow">Selected Impact</span>
-                <h2>What I want hiring teams to notice first.</h2>
+                <h2>The signal I want hiring teams to see quickly.</h2>
             </div>
             <div className="target-role-panel">
                 <span>Target roles</span>

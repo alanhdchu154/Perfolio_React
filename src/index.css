@@ -241,7 +241,7 @@ section[id] {
 
 .impact-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1rem;
   max-width: 1120px;
 }
@@ -402,112 +402,6 @@ section[id] {
 
 .research-grid {
   grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
-.topics-section.section {
-  background: #ffffff;
-}
-
-.topics-grid {
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.topic-card {
-  border: 1px solid #d8dee8;
-  border-radius: 8px;
-  background: #ffffff;
-  display: grid;
-  gap: 1rem;
-  grid-template-rows: auto 1fr;
-  padding: 1.15rem;
-}
-
-.topic-card > div:last-child > span {
-  color: #0f766e;
-  display: block;
-  font-size: 0.78rem;
-  font-weight: 850;
-  letter-spacing: 0.08em;
-  margin-bottom: 0.4rem;
-  text-transform: uppercase;
-}
-
-.topic-card h3 {
-  color: #132238;
-  font-size: 1.18rem;
-  line-height: 1.25;
-  margin: 0 0 0.55rem;
-}
-
-.topic-card p {
-  color: #526173;
-  margin: 0;
-}
-
-.topic-link {
-  margin-top: 1rem;
-}
-
-.topic-svg {
-  display: block;
-  height: auto;
-  width: 100%;
-}
-
-.topic-flow,
-.topic-stack {
-  background: linear-gradient(135deg, #f0fdf4, #eff6ff 52%, #fff7ed);
-  border: 1px solid #d8dee8;
-  border-radius: 8px;
-  display: grid;
-  gap: 0.6rem;
-  min-height: 16rem;
-  padding: 1rem;
-}
-
-.topic-flow {
-  align-content: center;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-}
-
-.topic-flow span,
-.topic-stack span {
-  align-items: center;
-  background: rgba(255, 255, 255, 0.82);
-  border: 1px solid rgba(15, 118, 110, 0.18);
-  border-radius: 8px;
-  color: #132238;
-  display: flex;
-  font-size: 0.84rem;
-  font-weight: 800;
-  justify-content: center;
-  line-height: 1.25;
-  min-width: 0;
-  padding: 0.75rem 0.6rem;
-  text-align: center;
-}
-
-.topic-flow span + span {
-  position: relative;
-}
-
-.topic-flow span + span::before {
-  color: #0f766e;
-  content: "->";
-  font-size: 0.78rem;
-  font-weight: 900;
-  left: -0.78rem;
-  position: absolute;
-}
-
-.topic-flow--privacy {
-  background: linear-gradient(135deg, #eff6ff, #f8fafc 48%, #f0fdf4);
-}
-
-.topic-stack {
-  align-content: center;
 }
 
 .skill-card,
@@ -1592,7 +1486,6 @@ form textarea {
   .case-study-content,
   .skills-grid,
   .projects-grid,
-  .topics-grid,
   .research-grid,
   .roadmap-board,
   .underworld-theme-grid,
@@ -1757,23 +1650,11 @@ form textarea {
   .case-topic-grid,
   .skills-grid,
   .projects-grid,
-  .topics-grid,
   .research-grid,
   .roadmap-board,
   .underworld-theme-grid,
   .underworld-principles {
     grid-template-columns: 1fr;
-  }
-
-  .topic-flow {
-    grid-template-columns: 1fr;
-  }
-
-  .topic-flow span + span::before {
-    content: "v";
-    left: 50%;
-    top: -0.9rem;
-    transform: translateX(-50%);
   }
 
   .experience-item__header {

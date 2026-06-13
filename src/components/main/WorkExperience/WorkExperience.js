@@ -6,7 +6,7 @@ function WorkExperience() {
         <section className="section experience-section" id="experience">
             <div className="section__intro">
                 <span className="section__eyebrow">Experience</span>
-                <h2>Engineering experience with data-heavy operations and education systems.</h2>
+                <h2>Experience across operations, education, and internal tooling.</h2>
             </div>
 
             <div className="experience-list">

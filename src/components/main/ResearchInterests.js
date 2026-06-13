@@ -4,15 +4,15 @@ function ResearchInterests() {
     const interests = [
         {
             title: 'Education psychology',
-            body: 'Exploring how students disclose pressure, confusion, avoidance, and motivation gaps when the system gives them a safer way to be understood.'
+            body: 'How students disclose pressure, confusion, avoidance, and motivation gaps when support feels safer.'
         },
         {
             title: 'AI sociology',
-            body: 'Studying AI agents, memory, routines, norms, and simulated institutions as a new layer of social reality around learning.'
+            body: 'How agents, memory, routines, and simulated institutions change the social layer around learning.'
         },
         {
             title: 'Human-AI coordination',
-            body: 'Thinking about how AI can mediate between students, parents, teachers, and schools without turning support into surveillance.'
+            body: 'How AI can mediate between students, parents, teachers, and schools without becoming surveillance.'
         }
     ];
 
@@ -22,9 +22,8 @@ function ResearchInterests() {
                 <span className="section__eyebrow">Research Direction</span>
                 <h2>Exploring education psychology and AI sociology</h2>
                 <p>
-                    I am still mapping this world: how AI changes the social layer around learning,
-                    how students become willing to share what they actually feel, and how simulated
-                    AI worlds can help us reason about trust, coordination, and institutional behavior.
+                    I am mapping how AI changes trust, coordination, disclosure, and institutional behavior
+                    around learning.
                 </p>
                 <a
                     className="button button--secondary research-link"

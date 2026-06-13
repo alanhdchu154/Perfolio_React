@@ -7,8 +7,7 @@ function ContactForm() {
                 <span className="section__eyebrow">Contact</span>
                 <h2>Let’s talk about backend systems, data platforms, and applied AI roles.</h2>
                 <p>
-                    The fastest way to reach me is email or LinkedIn. I am most interested in roles where
-                    software engineering, operational data, and applied AI meet.
+                    The fastest way to reach me is email or LinkedIn.
                 </p>
             </div>
             <div className="contact-actions">

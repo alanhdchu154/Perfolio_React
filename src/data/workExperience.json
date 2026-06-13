@@ -6,9 +6,8 @@
         "tags": ["Backend systems", "Operational analytics", "Data quality", "Decision support"],
         "points": [
             "Built backend and data workflows for nationwide operations tooling, including demand-supply gap visibility across store and regional service-zone dimensions.",
-            "Translated ambiguous operations questions into maintainable APIs, pipelines, monitoring views, and decision-support workflows.",
-            "Improved operational observability by tightening data quality checks, signal definitions, and alert/triage paths for recurring issues.",
-            "Worked at the intersection of engineering, analytics, and business operations, where reliability, governance, and clarity mattered more than one-off scripts."
+            "Translated ambiguous operations questions into APIs, pipelines, monitoring views, and decision-support workflows.",
+            "Tightened data quality checks, signal definitions, and triage paths so recurring issues were easier to interpret."
         ]
     },
     {
@@ -18,7 +17,6 @@
         "tags": ["EdTech systems", "Academic operations", "AI workflows"],
         "points": [
             "Designed academic systems for GPA, transcripts, course pathways, and student progress tracking in a US high-school-oriented international program.",
-            "Built AI-assisted and automation-friendly workflows for academic planning, teaching operations, and parent-facing visibility.",
             "Converted education strategy into repeatable operating processes across students, parents, teachers, and administrators."
         ]
     },
@@ -29,8 +27,8 @@
         "tags": ["Full-stack tools", "Internal systems", "Workflow automation"],
         "points": [
             "Built internal tools across payroll, teacher management, student/course operations, and online learning infrastructure.",
-            "Shipped full-stack systems with React, FastAPI, Node.js, MongoDB, SQLite, Moodle, and AWS Lightsail in a resource-constrained startup environment.",
-            "Owned workflow design from operator pain point to deployed tool, reducing manual administrative load and improving visibility."
+            "Shipped full-stack systems with React, FastAPI, Node.js, MongoDB, SQLite, Moodle, and AWS Lightsail.",
+            "Owned workflow design from operator pain point to deployed tool."
         ]
     },
     {

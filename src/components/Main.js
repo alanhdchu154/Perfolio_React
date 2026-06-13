@@ -5,7 +5,6 @@ const EducationExperience = lazy(() => import('./main/EducationExperience/Educat
 const WorkExperience = lazy(() => import('./main/WorkExperience/WorkExperience'));
 const TechSkills = lazy(() => import('./main/WorkExperience/TechSkills'));
 const Projects = lazy(() => import('./main/Projects'));
-const ProjectTopics = lazy(() => import('./main/ProjectTopics'));
 const AboutMe = lazy(() => import('./main/AboutMe'));
 const SelectedImpact = lazy(() => import('./main/SelectedImpact'));
 const ContactForm = lazy(() => import('./main/ContactForm'));
@@ -21,7 +20,6 @@ function Main() {
                 <WorkExperience />
                 <TechSkills />
                 <Projects />
-                <ProjectTopics />
                 <ResearchInterests />
                 <EducationExperience />
                 <ContactForm />

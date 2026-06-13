@@ -57,9 +57,6 @@ function Nav() {
                     <a className="nav-link" href="#projects" onClick={handleNavClick}>Projects</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="#topics" onClick={handleNavClick}>Topics</a>
-                </li>
-                <li className="nav-item">
                     <a className="nav-link" href="#research" onClick={handleNavClick}>Research</a>
                 </li>
                 <li className="nav-item">
