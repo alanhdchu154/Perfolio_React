@@ -39,6 +39,7 @@ const projectDetails = [
             "Why it matters: explores how AI can coordinate people without collapsing privacy, trust, or accountability."
         ],
         github: "https://github.com/alanhdchu154/three-party-ai-mvp.git",
+        caseStudy: "/case-studies/three-party-ai",
         status: "Research prototype"
     },
     {

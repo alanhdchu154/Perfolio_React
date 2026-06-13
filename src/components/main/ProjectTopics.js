@@ -20,7 +20,7 @@ const topics = [
         label: 'Three-party AI benchmark',
         body: 'Student, parent, and teacher perspectives stay separated by a privacy wall. The coordinator works from abstractions and reviewer gates rather than raw private disclosures.',
         diagram: 'privacy',
-        detailsHref: 'https://github.com/alanhdchu154/three-party-ai-mvp'
+        detailsHref: '/case-studies/three-party-ai#privacy-wall'
     },
     {
         title: 'School Operations and Trust Infrastructure',

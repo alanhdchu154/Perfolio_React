@@ -754,9 +754,282 @@ form textarea {
   margin: 0;
 }
 
+.case-study-content p {
+  margin-bottom: 1rem;
+}
+
 .case-study-close {
   margin: 0 8vw 4rem;
   padding: 1.5rem;
+}
+
+.confidential-system-map,
+.confidential-mini-diagram,
+.case-topic-diagram,
+.three-party-map {
+  border: 1px solid #d8dee8;
+  border-radius: 8px;
+}
+
+.confidential-system-map {
+  align-items: center;
+  background: #ffffff;
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr) auto minmax(0, 1fr) auto minmax(0, 1fr);
+  margin-top: 2rem;
+  max-width: 980px;
+  padding: 1rem;
+}
+
+.confidential-system-map span,
+.confidential-mini-diagram span,
+.case-topic-diagram span {
+  align-items: center;
+  border-radius: 8px;
+  color: #132238;
+  display: flex;
+  font-weight: 850;
+  justify-content: center;
+  line-height: 1.2;
+  min-width: 0;
+  text-align: center;
+}
+
+.confidential-system-map span {
+  background: #f8fafc;
+  border: 1px solid #d8dee8;
+  font-size: 0.86rem;
+  min-height: 3.25rem;
+  padding: 0.7rem;
+}
+
+.confidential-system-map i,
+.confidential-mini-diagram i,
+.case-topic-diagram i,
+.three-party-map i {
+  display: block;
+  height: 2px;
+  position: relative;
+  width: 1rem;
+}
+
+.confidential-system-map i,
+.confidential-mini-diagram i {
+  background: #64748b;
+}
+
+.confidential-system-map i::after,
+.confidential-mini-diagram i::after,
+.case-topic-diagram i::after,
+.three-party-map i::after {
+  border-bottom: 4px solid transparent;
+  border-top: 4px solid transparent;
+  content: "";
+  position: absolute;
+  right: -1px;
+  top: -3px;
+}
+
+.confidential-system-map i::after,
+.confidential-mini-diagram i::after {
+  border-left: 5px solid #64748b;
+}
+
+.confidential-mini-diagram {
+  align-items: center;
+  background: #f8fafc;
+  display: grid;
+  gap: 0.45rem;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr) auto minmax(0, 1fr);
+  margin-top: 1rem;
+  padding: 0.75rem;
+}
+
+.confidential-mini-diagram span {
+  background: #ffffff;
+  border: 1px solid #d8dee8;
+  font-size: 0.76rem;
+  min-height: 2.5rem;
+  padding: 0.5rem;
+}
+
+.three-party-hero {
+  background: linear-gradient(120deg, #ffffff 0%, #eff6ff 54%, #f0fdf4 100%);
+}
+
+.three-party-map {
+  align-items: stretch;
+  background: #ffffff;
+  display: grid;
+  gap: 0.75rem;
+  grid-template-columns: minmax(0, 0.85fr) auto minmax(0, 1.25fr) auto minmax(0, 0.9fr);
+  margin-top: 2rem;
+  max-width: 1040px;
+  padding: 1rem;
+}
+
+.party-column,
+.party-output {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.party-column span,
+.party-output span {
+  align-items: center;
+  border-radius: 8px;
+  display: flex;
+  font-size: 0.86rem;
+  font-weight: 850;
+  justify-content: center;
+  min-height: 3rem;
+  padding: 0.55rem;
+  text-align: center;
+}
+
+.party-column span {
+  background: #eff6ff;
+  border: 1px solid #c7d2fe;
+  color: #1e3a8a;
+}
+
+.party-output span {
+  background: #ecfdf5;
+  border: 1px solid #a7f3d0;
+  color: #0f766e;
+}
+
+.party-core {
+  align-items: center;
+  background: #132238;
+  border-radius: 8px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  text-align: center;
+}
+
+.party-core strong {
+  display: block;
+  font-size: 1.1rem;
+  line-height: 1.2;
+  margin-bottom: 0.55rem;
+}
+
+.party-core span {
+  color: #d6dee8;
+  font-size: 0.88rem;
+  line-height: 1.4;
+}
+
+.three-party-map i {
+  align-self: center;
+  background: #0f766e;
+}
+
+.three-party-map i::after {
+  border-left: 5px solid #0f766e;
+}
+
+.case-topic-index {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  padding: 1rem 8vw 2rem;
+}
+
+.case-topic-index > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: flex-end;
+}
+
+.case-topic-index a {
+  background: #ffffff;
+  border: 1px solid #d8dee8;
+  border-radius: 999px;
+  color: #132238;
+  font-size: 0.82rem;
+  font-weight: 850;
+  padding: 0.35rem 0.75rem;
+}
+
+.case-topic-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  padding: 0 8vw 2rem;
+}
+
+.case-topic-card {
+  background: #ffffff;
+  border: 1px solid #d8dee8;
+  border-radius: 8px;
+  display: grid;
+  gap: 1rem;
+  padding: 1.25rem;
+  scroll-margin-top: 5.5rem;
+}
+
+.case-topic-card > div:first-child > span {
+  color: #0f766e;
+  display: block;
+  font-size: 0.76rem;
+  font-weight: 850;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.45rem;
+  text-transform: uppercase;
+}
+
+.case-topic-card h2 {
+  color: #132238;
+  font-size: 1.25rem;
+  line-height: 1.25;
+  margin: 0 0 0.65rem;
+}
+
+.case-topic-card p {
+  color: #526173;
+  margin: 0 0 0.85rem;
+}
+
+.case-topic-card em {
+  color: #66768a;
+  display: block;
+  font-size: 0.86rem;
+  font-style: normal;
+  line-height: 1.45;
+}
+
+.case-topic-diagram {
+  align-items: center;
+  background: linear-gradient(135deg, #eff6ff, #f8fafc 48%, #f0fdf4);
+  display: grid;
+  gap: 0.45rem;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr) auto minmax(0, 1fr) auto minmax(0, 1fr);
+  min-height: 6.5rem;
+  padding: 0.8rem;
+}
+
+.case-topic-diagram span {
+  background: rgba(255, 255, 255, 0.88);
+  border: 1px solid rgba(15, 118, 110, 0.18);
+  font-size: 0.78rem;
+  min-height: 3.25rem;
+  padding: 0.55rem;
+}
+
+.case-topic-diagram i {
+  background: #0f766e;
+}
+
+.case-topic-diagram i::after {
+  border-left: 5px solid #0f766e;
 }
 
 .case-study-close .button {
@@ -1190,13 +1463,13 @@ form textarea {
 }
 
 .theme-mini-diagram {
-  align-items: center;
+  align-items: stretch;
   background: #ffffff;
   border: 1px solid #d8dee8;
   border-radius: 8px;
   display: grid;
   gap: 0.45rem;
-  grid-template-columns: repeat(9, minmax(0, auto));
+  grid-template-columns: 1fr;
   padding: 0.75rem;
 }
 
@@ -1216,19 +1489,22 @@ form textarea {
 .theme-mini-diagram i {
   background: #0f766e;
   display: block;
-  height: 2px;
+  height: 0.8rem;
+  justify-self: center;
   position: relative;
-  width: 0.8rem;
+  width: 2px;
 }
 
 .theme-mini-diagram i::after {
-  border-bottom: 4px solid transparent;
-  border-left: 5px solid #0f766e;
-  border-top: 4px solid transparent;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 5px solid #0f766e;
+  border-bottom: 0;
   content: "";
   position: absolute;
-  right: -1px;
-  top: -3px;
+  left: -3px;
+  right: auto;
+  top: 0.55rem;
 }
 
 .roadmap-board {
@@ -1339,8 +1615,42 @@ form textarea {
 
   .underworld-two-column,
   .architecture-layers,
-  .residue-pipeline {
+  .residue-pipeline,
+  .three-party-map,
+  .confidential-system-map,
+  .case-topic-diagram,
+  .confidential-mini-diagram {
     grid-template-columns: 1fr;
+  }
+
+  .three-party-map i,
+  .confidential-system-map i,
+  .case-topic-diagram i,
+  .confidential-mini-diagram i {
+    height: 0.85rem;
+    justify-self: center;
+    width: 2px;
+  }
+
+  .three-party-map i::after,
+  .confidential-system-map i::after,
+  .case-topic-diagram i::after,
+  .confidential-mini-diagram i::after {
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    left: -3px;
+    right: auto;
+    top: 0.6rem;
+  }
+
+  .three-party-map i::after,
+  .case-topic-diagram i::after {
+    border-top: 5px solid #0f766e;
+  }
+
+  .confidential-system-map i::after,
+  .confidential-mini-diagram i::after {
+    border-top: 5px solid #64748b;
   }
 
   .architecture-flow {
@@ -1444,6 +1754,7 @@ form textarea {
   .underworld-snapshot,
   .case-study-summary,
   .case-study-content,
+  .case-topic-grid,
   .skills-grid,
   .projects-grid,
   .topics-grid,
@@ -1510,6 +1821,17 @@ form textarea {
     justify-content: flex-start;
   }
 
+  .case-topic-index {
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .case-topic-index > div {
+    justify-content: flex-start;
+  }
+
   .underworld-hero h1 {
     font-size: clamp(2rem, 9.5vw, 2.4rem);
     line-height: 1.08;
@@ -1537,6 +1859,9 @@ form textarea {
   .continuity-diagram,
   .underworld-architecture-poster,
   .architecture-flow,
+  .three-party-map,
+  .confidential-system-map,
+  .case-topic-diagram,
   .roadmap-board,
   .residue-pipeline,
   .gate-grid {
@@ -1548,6 +1873,7 @@ form textarea {
   .roadmap-board article,
   .residue-pipeline article,
   .underworld-theme-card,
+  .case-topic-card,
   .gate-grid span {
     min-width: 0;
   }
@@ -1597,6 +1923,8 @@ form textarea {
   .underworld-snapshot,
   .case-study-summary,
   .case-study-content,
+  .case-topic-index,
+  .case-topic-grid,
   .underworld-section {
     padding-left: 1rem;
     padding-right: 1rem;
