@@ -32,6 +32,12 @@ This repo follows the global Central Umi coordination contract in
   enough that the file reduces confusion. Do not create files for format purity.
 - Use `cc-code-mode-handoff` before substantial implementation, build/debug,
   accessibility review, diff alignment, or frontend cleanup.
+- When assigning Claude Code / cc, follow Central
+  `/Users/alanhdchu/umi-central/docs/cc_model_routing.md`: use `--model sonnet`
+  for routine UI/build fixes, bounded verification, and mechanical cleanup; use
+  `--model opus` for public positioning, confidential-safe case-study framing,
+  career-market strategy, or high-risk bug-hunt judgment. Record the model
+  target and reason in the handoff.
 
 ## Product Purpose
 

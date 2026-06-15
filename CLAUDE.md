@@ -10,6 +10,10 @@ Key reminders:
 - Do not invent confidential details or overclaim outcomes.
 - Use code-mode Claude Code for substantial implementation, build/debug,
   accessibility review, diff alignment, or frontend cleanup.
+- Use `--model sonnet` for routine UI/build fixes and bounded verification; use
+  `--model opus` for public positioning, confidential-safe case-study framing,
+  career-market strategy, or high-risk bug-hunt judgment. Follow Central
+  `/Users/alanhdchu/umi-central/docs/cc_model_routing.md`.
 - After meaningful work, update
   `/Users/alanhdchu/umi-central/ai/HANDOFF.md` before marking the task complete.
 - If Alan works directly here and priority, risk, blocker, public positioning,
