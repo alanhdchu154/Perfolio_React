@@ -38,6 +38,13 @@ This repo follows the global Central Umi coordination contract in
   `--model opus` for public positioning, confidential-safe case-study framing,
   career-market strategy, or high-risk bug-hunt judgment. Record the model
   target and reason in the handoff.
+- Use Alan's current two-loop flow when portfolio work becomes active: Central
+  Umi / Codex defines direction, acceptance criteria, and source-of-truth
+  context; cc does deep VS Code Claude Code / code-mode work for build,
+  accessibility, diff-alignment, or high-risk positioning review; Codex reviews,
+  verifies, accepts/rejects/narrows, then updates the right source-of-truth
+  files. Do not let a VS Code cc chat or Codex chat be the only record of an
+  accepted result, changed blocker, or next action.
 
 ## Product Purpose
 

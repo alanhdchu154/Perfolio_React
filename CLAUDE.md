@@ -10,6 +10,9 @@ Key reminders:
 - Do not invent confidential details or overclaim outcomes.
 - Use code-mode Claude Code for substantial implementation, build/debug,
   accessibility review, diff alignment, or frontend cleanup.
+- Follow Alan's two-loop flow: Central Umi / Codex defines direction and
+  acceptance, cc does deep code-mode work, and Codex reviews/verifies/syncs the
+  source of truth before work is treated as complete.
 - Use `--model sonnet` for routine UI/build fixes and bounded verification; use
   `--model opus` for public positioning, confidential-safe case-study framing,
   career-market strategy, or high-risk bug-hunt judgment. Follow Central
