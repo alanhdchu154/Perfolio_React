@@ -28,12 +28,12 @@ const projectDetails = [
     {
         title: "Three-Party AI Education Coordinator",
         category: "Applied AI / Privacy-Aware Benchmarking",
-        description: "A research prototype and synthetic benchmark for student-parent-teacher coordination.",
-        technologies: ["Python", "Streamlit", "LiteLLM", "Prompted agents", "Privacy tests", "Synthetic benchmark", "Human review gates"],
+        description: "A research prototype and synthetic benchmark for privacy-preserving student-parent-teacher coordination.",
+        technologies: ["Python", "Streamlit", "LiteLLM", "Prompted agents", "Privacy tests", "Synthetic benchmark", "Release gates", "Human review"],
         highlights: [
             "Built private party chats, abstraction, coordinator synthesis, triage, and audience-specific reports.",
-            "Maintains a 300+ conversation synthetic corpus while separating benchmark evidence from real-student validation claims.",
-            "Added privacy and reviewer gates for leakage, reconstructability, escalation, and human-review readiness."
+            "Packaged a 348-conversation synthetic benchmark with raw-vs-privacy-wall baseline comparison.",
+            "Added a reproducible release gate covering leak audits, semantic trace checks, reviewer coverage, tests, claim boundaries, and secret scanning."
         ],
         github: "https://github.com/alanhdchu154/three-party-ai-mvp.git",
         caseStudy: "/case-studies/three-party-ai",

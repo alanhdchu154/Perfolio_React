@@ -14,8 +14,8 @@ const topics = [
         eyebrow: 'Topic 2',
         title: 'Synthetic benchmark design',
         body: 'The corpus stress-tests shallow, medium, and deep support scenarios so the system can evaluate false escalation, under-escalation, privacy probes, and reconstructability risk before touching real minors data.',
-        diagram: ['Shallow cases', 'Medium cases', 'Deep cases', 'Stress tests'],
-        boundary: 'Current audit: 348 synthetic conversations on 2026-06-13. Synthetic distribution must not be presented as real student behavior.'
+        diagram: ['348 conversations', '11-case baseline', 'Trace audit', 'Release gate'],
+        boundary: 'Current audit: 348 synthetic conversations on 2026-06-19. Synthetic distribution must not be presented as real student behavior.'
     },
     {
         id: 'party-aware-reports',
@@ -29,16 +29,16 @@ const topics = [
         id: 'human-review-gate',
         eyebrow: 'Topic 4',
         title: 'Human review gate',
-        body: 'The benchmark treats AI as support infrastructure around human reviewers. Privacy, escalation, and actionability should pass review before any real-world pilot claim.',
-        diagram: ['Leak audit', 'Triage check', 'Reviewer rubric', 'Release decision'],
-        boundary: 'Public boundary: no autonomous counseling, clinical validity, or pilot-readiness claim without consent, crisis handoff, deletion, and reviewer ownership.'
+        body: 'The benchmark treats AI as support infrastructure around human reviewers. The current release gate checks reviewer coverage, leak risk, semantic trace overlap, test status, public claim boundaries, and git-visible secret risk.',
+        diagram: ['37 notes', 'Leak audit', 'Trace audit', 'Release decision'],
+        boundary: 'Public boundary: local reviewer screening is not external validation, autonomous counseling, clinical validity, or pilot readiness.'
     }
 ];
 
 const summary = [
     ['Project shape', 'Research prototype and synthetic benchmark'],
-    ['Current evidence', '348 synthetic conversations audited on 2026-06-13'],
-    ['Claim boundary', 'No real-student validation claim']
+    ['Current evidence', 'Release gate: 77 tests, 37 reviewer notes, 0 leak/trace failures'],
+    ['Claim boundary', 'Synthetic benchmark, not real-student validation']
 ];
 
 function TopicDiagram({ nodes, title }) {
@@ -71,7 +71,8 @@ function ThreePartyCaseStudy() {
                 <p>
                     A research prototype and synthetic benchmark for student-parent-teacher support
                     coordination. The system explores how private disclosures can become safe,
-                    human-reviewable support signals without exposing raw conversations.
+                    human-reviewable support signals without exposing raw conversations. The current
+                    GitHub package includes a reproducible release gate rather than a demo-only claim.
                 </p>
                 <div className="case-study-tags">
                     <span>Privacy wall</span>
