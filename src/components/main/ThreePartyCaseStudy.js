@@ -140,6 +140,7 @@ function ThreePartyCaseStudy() {
                     preserve privacy boundaries, stay evidence-grounded, and keep humans responsible for
                     sensitive decisions.
                 </p>
+                <a className="button button--secondary" href="/articles/three-party-ai-findings">Read Findings Essay</a>
                 <a className="button button--primary" href="https://github.com/alanhdchu154/three-party-ai-mvp.git" target="_blank" rel="noopener noreferrer">View Repository</a>
             </section>
         </main>

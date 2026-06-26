@@ -338,6 +338,15 @@ function UnderworldCaseStudy() {
                     </p>
                 </article>
             </section>
+
+            <section className="case-study-close">
+                <h2>Read the Field Essay</h2>
+                <p>
+                    A longer reflection on the project's evolution from memory gates and prompt walls to
+                    bottom-up cultivated souls.
+                </p>
+                <a className="button button--primary" href="/articles/underworld-free-souls">Read Findings Essay</a>
+            </section>
         </main>
     );
 }
