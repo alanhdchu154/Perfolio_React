@@ -16,8 +16,12 @@ This repo follows the global Central Umi coordination contract in
 - Do not ask Alan to manage separate portfolio design/content/build
   conversations by default. Keep Central Umi as the entrypoint unless Alan
   explicitly opens a project-focused deep-work thread.
-- After meaningful portfolio work, update
+- After meaningful portfolio work, Central Umi / Codex updates
   `/Users/alanhdchu/umi-central/ai/HANDOFF.md` before marking the task complete.
+  Claude Code / cc may read that file for executive context, but cc reports
+  task output through `umi/workload.md`, `umi/reports/`, or the requested worker
+  report; cc should not treat Central handoff as its active communication
+  channel.
 - If Alan works directly in a Portfolio project-lead conversation, align Central
   Umi immediately for public positioning decisions, job/career priority shifts,
   confidential/public-risk choices, launch/deploy decisions, or major messaging
@@ -102,7 +106,8 @@ Before a task:
 After a task:
 
 1. Run the smallest useful verification.
-2. Update `/Users/alanhdchu/umi-central/ai/HANDOFF.md`.
+2. Let Central Umi / Codex update `/Users/alanhdchu/umi-central/ai/HANDOFF.md`
+   when executive state, risk, blocker, or next action changed.
 3. Update central status or dispatch only if priority, risk, blocker, or next
    action changed.
 4. Tell Alan the concise outcome and residual risk.

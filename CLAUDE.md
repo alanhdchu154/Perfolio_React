@@ -27,8 +27,12 @@ Key reminders:
   local access is confirmed and retention/safeguard constraints are acceptable.
   Pin a full model ID only for Fable 5 access, model migration/regression
   reproduction, or an explicit runbook requirement.
-- After meaningful work, update
+- After meaningful work, Central Umi / Codex updates
   `/Users/alanhdchu/umi-central/ai/HANDOFF.md` before marking the task complete.
+  Claude Code / cc may read that file for executive context, but cc reports
+  task output through `umi/workload.md`, `umi/reports/`, or the requested worker
+  report; cc should not treat Central handoff as its active communication
+  channel.
 - If Alan works directly here and priority, risk, blocker, public positioning,
   or next action changes, align Central Umi.
 - Avoid duplicated operating rules. Central docs are the canonical source for
