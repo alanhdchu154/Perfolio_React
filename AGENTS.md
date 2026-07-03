@@ -26,6 +26,10 @@ This repo follows the global Central Umi coordination contract in
 - Read `/Users/alanhdchu/umi-central/goals.md` before local planning when
   priority or cross-project coordination matters. The central `portfolio-alan`
   row decides whether portfolio work is active or deferred.
+- For visible UI, case-study, or article-layout work, read `DESIGN.md` before
+  editing. It is the repo-local visual source of truth for palette, typography,
+  cards, diagrams, public-claim boundaries, and confidentiality-safe case-study
+  presentation. It does not override this file's confidentiality rules.
 - If active worker delegation is needed, create or update `umi/workload.md` for
   one focused Codex / Claude Code handoff. Do not turn it into a diary.
 - Create `WORKLOG.md` or `ROADMAP.md` only when portfolio work becomes active
@@ -33,11 +37,14 @@ This repo follows the global Central Umi coordination contract in
 - Use `cc-code-mode-handoff` before substantial implementation, build/debug,
   accessibility review, diff alignment, or frontend cleanup.
 - When assigning Claude Code / cc, follow Central
-  `/Users/alanhdchu/umi-central/docs/cc_model_routing.md`: use `--model sonnet`
-  for routine UI/build fixes, bounded verification, and mechanical cleanup; use
-  `--model opus` for public positioning, confidential-safe case-study framing,
-  career-market strategy, or high-risk bug-hunt judgment. Record the model
-  target and reason in the handoff.
+  `/Users/alanhdchu/umi-central/docs/cc_model_routing.md` with alias-first
+  routing: use `--model sonnet` for the latest Sonnet line on routine UI/build
+  fixes, bounded verification, and mechanical cleanup; use `--model opus` for
+  the latest available Opus-class line on public positioning,
+  confidential-safe case-study framing, career-market strategy, or high-risk
+  bug-hunt judgment. Record the model target and reason in the handoff. Pin a
+  full model ID only for model migration/regression reproduction or an explicit
+  runbook requirement.
 - Use Alan's current two-loop flow when portfolio work becomes active: Central
   Umi / Codex defines direction, acceptance criteria, and source-of-truth
   context; cc does deep VS Code Claude Code / code-mode work for build,
