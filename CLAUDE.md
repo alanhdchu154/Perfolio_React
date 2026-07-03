@@ -28,6 +28,14 @@ Key reminders:
   `/Users/alanhdchu/umi-central/ai/HANDOFF.md` before marking the task complete.
 - If Alan works directly here and priority, risk, blocker, public positioning,
   or next action changes, align Central Umi.
+- Avoid duplicated operating rules. Central docs are the canonical source for
+  cross-project policy; this file should reference them and add only
+  portfolio-specific exceptions.
+- Treat `node_modules`, `build`, `.pytest_cache`, and `__pycache__` as
+  rebuildable cache, not automatic cleanup. This repo can be cold-cleaned when
+  idle, but keep caches during active design/build work. Do not use broad
+  `git clean -xfd`, and do not treat public resume/assets or claim-safety
+  evidence as ordinary cache.
 
 Default verification for visible changes:
 

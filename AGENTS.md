@@ -56,6 +56,14 @@ This repo follows the global Central Umi coordination contract in
   verifies, accepts/rejects/narrows, then updates the right source-of-truth
   files. Do not let a VS Code cc chat or Codex chat be the only record of an
   accepted result, changed blocker, or next action.
+- Avoid duplicated operating rules. Central docs are the canonical source for
+  cross-project policy; project docs should reference them and add only
+  portfolio-specific exceptions.
+- Treat `node_modules`, `build`, `.pytest_cache`, and `__pycache__` as
+  rebuildable cache, not automatic cleanup. This repo is a good cold-clean
+  candidate when idle, but keep caches during active design/build work if
+  deletion would slow the next task. Do not use broad `git clean -xfd`, and do
+  not treat public resume/assets or claim-safety evidence as ordinary cache.
 
 ## Product Purpose
 
