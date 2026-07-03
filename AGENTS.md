@@ -37,14 +37,18 @@ This repo follows the global Central Umi coordination contract in
 - Use `cc-code-mode-handoff` before substantial implementation, build/debug,
   accessibility review, diff alignment, or frontend cleanup.
 - When assigning Claude Code / cc, follow Central
-  `/Users/alanhdchu/umi-central/docs/cc_model_routing.md` with alias-first
+  `/Users/alanhdchu/umi-central/docs/cc_model_routing.md` with confirmed-alias
   routing: use `--model sonnet` for the latest Sonnet line on routine UI/build
   fixes, bounded verification, and mechanical cleanup; use `--model opus` for
   the latest available Opus-class line on public positioning,
   confidential-safe case-study framing, career-market strategy, or high-risk
-  bug-hunt judgment. Record the model target and reason in the handoff. Pin a
-  full model ID only for model migration/regression reproduction or an explicit
-  runbook requirement.
+  bug-hunt judgment; use full ID `--model claude-fable-5` only for
+  highest-capability ambitious long-horizon work such as large migrations,
+  complex multi-day implementation, broad cross-repo transformations, or
+  long-running autonomous coding after local access is confirmed and
+  retention/safeguard constraints are acceptable. Record the model target and
+  reason in the handoff. Pin a full model ID only for Fable 5 access, model
+  migration/regression reproduction, or an explicit runbook requirement.
 - Use Alan's current two-loop flow when portfolio work becomes active: Central
   Umi / Codex defines direction, acceptance criteria, and source-of-truth
   context; cc does deep VS Code Claude Code / code-mode work for build,
