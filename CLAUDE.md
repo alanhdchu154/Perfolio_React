@@ -13,6 +13,9 @@ Key reminders:
 - Follow Alan's two-loop flow: Central Umi / Codex defines direction and
   acceptance, cc does deep code-mode work, and Codex reviews/verifies/syncs the
   source of truth before work is treated as complete.
+- Use `umi/workload.md` as the active worker assignment file. Do not write
+  focused cc/Codex task state into `AGENTS.md`, `CLAUDE.md`, `WORKLOG.md`,
+  `ROADMAP.md`, or Central `ai/HANDOFF.md`.
 - Follow Central `/Users/alanhdchu/umi-central/docs/cc_model_routing.md` with
   confirmed-alias routing. Use `--model sonnet` for the latest Sonnet line on
   routine UI/build fixes and bounded verification; use `--model opus` for the

@@ -30,8 +30,12 @@ This repo follows the global Central Umi coordination contract in
   editing. It is the repo-local visual source of truth for palette, typography,
   cards, diagrams, public-claim boundaries, and confidentiality-safe case-study
   presentation. It does not override this file's confidentiality rules.
-- If active worker delegation is needed, create or update `umi/workload.md` for
-  one focused Codex / Claude Code handoff. Do not turn it into a diary.
+- Use `umi/workload.md` as the active Codex / Claude Code worker handoff for one
+  focused task at a time. Do not turn it into a diary.
+- File placement rule: active worker assignments, retry prompts, model choices,
+  stop conditions, and temporary cc/Codex task packets belong in
+  `umi/workload.md`, not in `AGENTS.md`, `CLAUDE.md`, `WORKLOG.md`,
+  `ROADMAP.md`, or Central `ai/HANDOFF.md`.
 - Create `WORKLOG.md` or `ROADMAP.md` only when portfolio work becomes active
   enough that the file reduces confusion. Do not create files for format purity.
 - Use `cc-code-mode-handoff` before substantial implementation, build/debug,
