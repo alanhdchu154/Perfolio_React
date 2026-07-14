@@ -3,13 +3,13 @@ import React from 'react';
 const roadmapLanes = [
     {
         phase: 'v0.1',
-        title: 'Make the world remember safely',
-        status: 'Active prototype',
+        title: 'Make growth evidence visible',
+        status: 'Partial local evidence',
         points: [
-            'Persistent character conversations',
-            'Memory continuity checks',
-            'Provider and fallback hygiene',
-            'Alan-facing playtest gate'
+            'Cultivation-loop audit',
+            'Traceable pursuit outcomes',
+            'Narrow cast-breadth evidence',
+            'Dialogue quality still active work'
         ]
     },
     {
@@ -44,7 +44,16 @@ const gates = [
     'Human Alan conversation quality',
     'Fallback and provider hygiene',
     'Motif hygiene and repair gate',
-    'Night quiet policy'
+    'Cultivation-loop evidence'
+];
+
+const cultivationChain = [
+    'Thin seed',
+    'Pursuit',
+    'Outcome',
+    'World event',
+    'Self drift',
+    'Changed behavior'
 ];
 
 const residueStages = [
@@ -128,17 +137,17 @@ function UnderworldCaseStudy() {
 
             <section className="case-study-hero underworld-hero">
                 <span className="section__eyebrow">Applied AI System Roadmap</span>
-                <h1>GIIS Underworld: persistent AI characters that can remember without drifting.</h1>
+                <h1>GIIS Underworld: persistent AI characters with partial cultivation evidence.</h1>
                 <p>
-                    A long-running school-world simulation built on AI Town. The interesting work is not just
-                    making agents talk; it is building the runtime, memory gates, continuity audits, and product
-                    boundaries that keep character memory useful instead of noisy.
+                    A long-running school-world research prototype built on AI Town. The interesting work is
+                    not just making agents talk; it is building memory gates, runtime recovery, and evaluation
+                    surfaces that can ask whether a past event changed future behavior.
                 </p>
                 <div className="case-study-tags">
                     <span>Agent memory</span>
                     <span>Rolling continuity</span>
                     <span>Emotional residue</span>
-                    <span>Evaluation gates</span>
+                    <span>Cultivation evidence</span>
                     <span>Local runtime recovery</span>
                 </div>
                 <div className="underworld-architecture-poster" aria-label="Underworld memory and continuity architecture">
@@ -173,18 +182,18 @@ function UnderworldCaseStudy() {
             <section className="underworld-snapshot">
                 <article>
                     <span>Current state</span>
-                    <strong>Active research prototype</strong>
-                    <p>Built around memory, continuity, and runtime gates, with empirical claims kept separate from product exploration.</p>
+                    <strong>Research prototype with partial local evidence</strong>
+                    <p>Built around prototype-level memory, continuity, runtime gates, and cultivation-loop evidence, with product-demo findings kept separate from research claims.</p>
                 </article>
                 <article>
                     <span>Core question</span>
-                    <strong>What should a character carry forward?</strong>
-                    <p>Memory must preserve continuity without leaking stale, misattributed, or repetitive traces.</p>
+                    <strong>Did an event change future behavior?</strong>
+                    <p>A strong sample is not enough; the system has to show cause, memory, drift, and later behavioral difference.</p>
                 </article>
                 <article>
                     <span>Engineering stance</span>
                     <strong>Evidence before claims</strong>
-                    <p>Product readiness, paper readiness, and emotional-residue research are kept as separate lanes.</p>
+                    <p>The L2 cultivation-loop audit can close in narrow local evidence, while cast breadth and dialogue quality remain active work.</p>
                 </article>
             </section>
 
@@ -229,6 +238,34 @@ function UnderworldCaseStudy() {
                 </div>
             </section>
 
+            <section className="underworld-section">
+                <div className="case-study-section-heading">
+                    <span className="section__eyebrow">Evidence Pivot</span>
+                    <h2>From dialogue quality to cultivation evidence</h2>
+                    <p>
+                        Most AI character demos stop at whether a single exchange sounds good. Underworld
+                        moved the evaluation target to a longer, inspectable chain: what caused the change,
+                        what was remembered, and how later behavior became different.
+                    </p>
+                </div>
+                <div className="article-flow underworld-growth-flow" aria-label="Underworld cultivation evidence chain">
+                    {cultivationChain.map((node, index) => (
+                        <React.Fragment key={node}>
+                            <span>{node}</span>
+                            {index < cultivationChain.length - 1 && <i />}
+                        </React.Fragment>
+                    ))}
+                </div>
+                <div className="article-boundary">
+                    <strong>Public-safe caveat</strong>
+                    <p>
+                        The current prototype has partial local evidence that these chains can close. The
+                        latest L2 audit shows loop evidence, but not broad, stable growth across the full cast;
+                        recent dialogue hygiene is still a known weakness.
+                    </p>
+                </div>
+            </section>
+
             <section className="underworld-section underworld-two-column">
                 <div>
                     <div className="case-study-section-heading">
@@ -263,7 +300,7 @@ function UnderworldCaseStudy() {
             <section className="underworld-section">
                 <div className="case-study-section-heading">
                     <span className="section__eyebrow">Roadmap</span>
-                    <h2>Three lanes instead of one vague AI demo</h2>
+                    <h2>Separate evidence lanes instead of one vague AI demo</h2>
                     <p>
                         The roadmap separates product behavior, system reliability, and research claims so each
                         lane can move without borrowing evidence from another.
@@ -294,7 +331,7 @@ function UnderworldCaseStudy() {
                     <p>
                         These are the portfolio-safe lanes under the Underworld umbrella. Each one has
                         evidence, a diagram, and a boundary so the case study stays interesting without
-                        overstating what the current system proves.
+                        overstating what the current evidence supports.
                     </p>
                 </div>
                 <div className="underworld-theme-grid">
@@ -334,7 +371,7 @@ function UnderworldCaseStudy() {
                     <p>
                         I worked across product framing, local runtime recovery, mobile playtesting, memory and
                         residue gates, continuity reports, and the evidence discipline that keeps the project
-                        from overstating what the current system proves.
+                        from overstating what the current evidence supports.
                     </p>
                 </article>
             </section>

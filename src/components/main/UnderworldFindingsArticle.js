@@ -34,7 +34,12 @@ const timeline = [
     {
         date: 'June 25',
         title: 'Make the growth visible',
-        body: 'The latest work added a Soul Arc and Cultivation Evidence Viewer, wired pursuit outcomes into emergent events, and introduced gated structured social events. The new product proof is a replayable chain: seed -> pursuit -> outcome -> world event -> self drift -> changed future behavior.'
+        body: 'The latest work added a Soul Arc and Cultivation Evidence Viewer, wired an initial pursuit-outcome path into emergent events, and introduced gated structured social events. The new evidence shape is a replayable chain: seed -> pursuit -> outcome -> world event -> self drift -> changed future behavior.'
+    },
+    {
+        date: 'July 13',
+        title: 'Pause with a sharper question',
+        body: 'The retrospective pause made the honest boundary clearer. The L2 audit showed that cultivation loops can close in local evidence, but the evidence is still narrow across the cast and recent dialogue quality remains weak. The artifact is the evidence system and the better question, not a finished world.'
     }
 ];
 
@@ -88,12 +93,12 @@ function UnderworldFindingsArticle() {
             <section className="article-shell">
                 <aside className="article-sidebar">
                     <span>Current Direction</span>
-                    <strong>Product-demo first</strong>
-                    <strong>4-6 deep souls</strong>
-                    <strong>Replayable growth evidence</strong>
+                    <strong>Research prototype</strong>
+                    <strong>Partial local cultivation-loop evidence</strong>
+                    <strong>Dialogue quality still active</strong>
                     <p>
-                        Current claim: long-running agent prototype with memory, continuity, and cultivation
-                        evidence. Not proof of human-like inner life.
+                        Current claim: long-running agent prototype with memory, runtime, and cultivation
+                        evidence gates. Not proof of human-like inner life or broad stable cast-wide growth.
                     </p>
                 </aside>
 
@@ -118,6 +123,15 @@ function UnderworldFindingsArticle() {
                         talk well?" It became: can a small soul carry forward the right residue, stay
                         distinct from the others, survive runtime instability, and grow through consequence
                         rather than through authorial force?
+                    </p>
+
+                    <p>
+                        The most useful result was not that the world became perfect. It was that the project
+                        found a better question. Instead of asking whether an agent can say an emotionally
+                        convincing line, Underworld now asks whether a character can pursue something, fail
+                        or succeed, leave a world trace, drift because of it, and act differently later.
+                        That chain is inspectable, which makes it a stronger artifact than a beautiful but
+                        isolated chatbot exchange.
                     </p>
 
                     <div className="article-callout">
@@ -237,19 +251,28 @@ function UnderworldFindingsArticle() {
 
                     <h2>Where Underworld Is Now</h2>
                     <p>
-                        The project is currently product-demo first. The near-term proof is not a research
-                        paper, fine-tuning, 30 agents, or a large RPG system. It is a small visible demo
-                        where four to six souls visibly grow through a chain an outside viewer can inspect:
-                        seed -> pursuit -> outcome -> world event -> self drift -> changed future pursuit or
-                        behavior.
+                        The project is currently paused in a useful place: promising, inspectable, and not
+                        finished. The near-term evidence target is not a research paper, fine-tuning, 30 agents, or a
+                        large RPG system. It is a small visible demo where a few souls can show a chain an
+                        outside viewer can inspect: seed -> pursuit -> outcome -> world event -> self drift
+                        -> changed future pursuit or behavior.
+                    </p>
+
+                    <p>
+                        The latest local evidence says the loop can close, but not that the whole cast has
+                        reliably grown. The stronger finding is methodological: single dialogue samples are
+                        too weak a unit of evidence. A persistent-agent system needs traceable causes, memory
+                        boundaries, runtime health, and later behavior that can be inspected against the
+                        earlier event.
                     </p>
 
                     <div className="article-boundary">
                         <strong>Claim boundary</strong>
                         <p>
-                            Underworld is a long-running agent prototype with memory, continuity gates, and
-                            visible cultivation evidence. It does not prove stable human-like inner life,
-                            production-grade availability, or completed v0.1 product readiness.
+                            Underworld is a long-running research prototype with memory, runtime, continuity,
+                            and partial cultivation evidence. It does not prove stable human-like inner life,
+                            production-grade availability, broad cast-wide growth, or completed v0.1 product
+                            readiness. Recent dialogue quality remains an active weakness.
                         </p>
                     </div>
                 </article>

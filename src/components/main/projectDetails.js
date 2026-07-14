@@ -42,17 +42,18 @@ const projectDetails = [
     {
         title: "AI Town: GIIS Underworld",
         category: "AI Simulation / Multi-Agent Worldbuilding",
-        description: "A persistent school-world AI simulation with character memory, continuity checks, runtime recovery, and mobile playtest support.",
-        technologies: ["React", "TypeScript", "Convex", "PixiJS", "Ollama", "LLM evaluation", "Agent memory"],
+        description: "A long-running school-world research prototype with selective memory, runtime recovery, and partial cultivation-loop evidence.",
+        technologies: ["React", "TypeScript", "Convex", "PixiJS", "Ollama", "LLM evaluation", "Agent memory", "Runtime preflight"],
         highlights: [
-            "Extended an agent simulation engine into a school-world prototype with persistent state, character routines, and human-facing conversations.",
-            "Built evidence gates for memory continuity, provider hygiene, motif repetition, and Alan-facing conversation quality.",
-            "Kept product readiness separate from research-paper claims."
+            "Extended an agent simulation engine into a school-world prototype with retained local state, character routines, and human-facing conversations.",
+            "Built evidence gates for memory continuity, provider hygiene, motif repetition, runtime health, and cultivation-loop closure.",
+            "Shifted evaluation from isolated dialogue quality toward traceable growth chains: seed, pursuit, outcome, world event, self drift, and changed future behavior.",
+            "Keeps the public claim boundary conservative: partial local evidence, narrow cast breadth, and dialogue quality still active."
         ],
         github: "https://github.com/alanhdchu154/ai-town.git",
         caseStudy: "/case-studies/giis-underworld",
         visual: "underworld-continuity",
-        status: "Human-review-ready prototype"
+        status: "Partial local evidence"
     }
 ];
 
