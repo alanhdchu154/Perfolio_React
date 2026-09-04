@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# local-only portfolio research briefs
+/docs/underworld-portfolio-agent-brief.md

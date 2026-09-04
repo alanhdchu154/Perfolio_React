@@ -22,7 +22,6 @@ function TextSlider(props) {
             <div className="hero__actions">
                 <a className="button button--primary" href="#projects">View Projects</a>
                 <a className="button button--secondary" href="#experience">Experience</a>
-                <a className="button button--secondary" href="/Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
             </div>
         </section>
     );

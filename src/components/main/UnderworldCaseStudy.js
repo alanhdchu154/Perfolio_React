@@ -131,7 +131,6 @@ function UnderworldCaseStudy() {
                 <a href="/">Alan Hwader Chu</a>
                 <div>
                     <a href="/#projects">Projects</a>
-                    <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
                 </div>
             </nav>
 

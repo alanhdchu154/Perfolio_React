@@ -2,8 +2,6 @@ import React from 'react';
 import styles from "./AboutMe.module.css";
 
 function AboutMe() {
-    const resumePath = '/Resume.pdf';
-
     return (
         <section className={`section ${styles.selfIntro}`} id="about">
             <div className="section__intro">
@@ -15,8 +13,8 @@ function AboutMe() {
                     decision context mattered more than demo polish.
                 </p>
                 <p>
-                    I am pursuing an M.S. in Artificial Intelligence at UT Austin and building AI/EdTech
-                    systems around coordination, triage, and simulation. My best-fit roles combine
+                    I completed graduate coursework in artificial intelligence and build AI/EdTech systems
+                    around coordination, triage, and simulation. My best-fit roles combine
                     engineering depth, data judgment, and practical product sense.
                 </p>
             </div>
@@ -33,8 +31,8 @@ function AboutMe() {
                     <span className="metric">AI</span>
                     <p>coordination systems, decision support, and simulation</p>
                 </div>
-                <a className="button button--primary" href={resumePath} target="_blank" rel="noopener noreferrer">
-                    Open Resume
+                <a className="button button--primary" href="#contact">
+                    Get in Touch
                 </a>
             </div>
         </section>
